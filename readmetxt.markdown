@@ -1,14 +1,27 @@
-Using data file "PKPlusDeviceFile.dat" which is a version 2.63.176 file.
+PICKitCommandline v1.1.6767.33446
 
-PIC18F65K40          PIC18/PIC18F MSB1st         0x00006800   
-PIC18F66K40          PIC18/PIC18F MSB1st         0x00006AE0   
-PIC18F67K40          PIC18/PIC18F MSB1st         0x00006AC0   
-PIC18LF65K40         PIC18/PIC18F MSB1st         0x00006B60   
-PIC18LF66K40         PIC18/PIC18F MSB1st         0x00006B40   
-PIC18LF67K40         PIC18/PIC18F MSB1st         0x00006B20   
-PIC12F1840           Midrange/1.8V Min           0x00001B80   
-PIC18F27K40          PIC18/PIC18F MSB1st         0x00006960   
-PIC18F47K40          PIC18/PIC18F MSB1st         0x00006900   
+Using data file "PKPlusDeviceFile.dat" which is a version 2.63.177 file.
+
+PIC16F19155       Midrange/1.8V Min MSB1st    0x00003096   
+PIC16F19175       Midrange/1.8V Min MSB1st    0x0000309A   
+PIC16F19176       Midrange/1.8V Min MSB1st    0x0000309C   
+PIC16F19185       Midrange/1.8V Min MSB1st    0x000030BA   
+PIC16F19186       Midrange/1.8V Min MSB1st    0x000030BC   
+PIC16LF19155      Midrange/1.8V Min MSB1st    0x00003097   
+PIC16LF19156      Midrange/1.8V Min MSB1st    0x00003099   
+PIC16LF19175      Midrange/1.8V Min MSB1st    0x0000309B   
+PIC16LF19176      Midrange/1.8V Min MSB1st    0x0000309D   
+PIC16LF19185      Midrange/1.8V Min MSB1st    0x000030BB   
+PIC16LF19186      Midrange/1.8V Min MSB1st    0x000030BD   
+PIC18F65K40       PIC18/PIC18F MSB1st         0x00006800   
+PIC18F66K40       PIC18/PIC18F MSB1st         0x00006AE0   
+PIC18F67K40       PIC18/PIC18F MSB1st         0x00006AC0   
+PIC18LF65K40      PIC18/PIC18F MSB1st         0x00006B60   
+PIC18LF66K40      PIC18/PIC18F MSB1st         0x00006B40   
+PIC18LF67K40      PIC18/PIC18F MSB1st         0x00006B20   
+PIC12F1840         Midrange/1.8V Min           0x00001B80   
+PIC18F27K40         PIC18/PIC18F MSB1st         0x00006960   
+PIC18F47K40         PIC18/PIC18F MSB1st         0x00006900   
 PIC16F18424          Midrange/1.8V Min MSB1st    0x000030CA   
 PIC16F18425          Midrange/1.8V Min MSB1st    0x000030CC   
 PIC16F18426          Midrange/1.8V Min MSB1st    0x000030D2   

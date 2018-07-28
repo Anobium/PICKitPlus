@@ -1,5 +1,3 @@
-PICKitCommandline v1.1.6767.33446
-
 Using data file "PKPlusDeviceFile.dat" which is a version 2.63.177 file.
 
 PIC16F19155       Midrange/1.8V Min MSB1st    0x00003096   

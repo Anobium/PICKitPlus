@@ -1,5 +1,5 @@
 PICKitCommandline v1.20.40341.6855
-Using data file "PKPlusDeviceFile.dat" which is a version 2.63.188 file.
+Using data file "PKPlusDeviceFile.dat" which is a version 2.63.189 file.
 
 PIC12LF1552             Midrange/Standard           0x00002BC0   
 PIC16LF1554             Midrange/Standard           0x00002F00   
@@ -73,12 +73,18 @@ PIC16F19175             Midrange/1.8V Min MSB1st    0x0000309A
 PIC16F19176             Midrange/1.8V Min MSB1st    0x0000309C   
 PIC16F19185             Midrange/1.8V Min MSB1st    0x000030BA   
 PIC16F19186             Midrange/1.8V Min MSB1st    0x000030BC   
+PIC16F19195             Midrange/1.8V Min MSB1st    0x0000309E   
+PIC16F19196             Midrange/1.8V Min MSB1st    0x000030A0   
+PIC16F19197             Midrange/1.8V Min MSB1st    0x000030A1   
 PIC16LF19155            Midrange/1.8V Min MSB1st    0x00003097   
 PIC16LF19156            Midrange/1.8V Min MSB1st    0x00003099   
 PIC16LF19175            Midrange/1.8V Min MSB1st    0x0000309B   
 PIC16LF19176            Midrange/1.8V Min MSB1st    0x0000309D   
 PIC16LF19185            Midrange/1.8V Min MSB1st    0x000030BB   
 PIC16LF19186            Midrange/1.8V Min MSB1st    0x000030BD   
+PIC16LF19195            Midrange/1.8V Min MSB1st    0x0000309F   
+PIC16LF19196            Midrange/1.8V Min MSB1st    0x000030A1   
+PIC16LF19197            Midrange/1.8V Min MSB1st    0x000030A3   
 PIC18F65K40             PIC18/PIC18F MSB1st         0x00006800   
 PIC18F66K40             PIC18/PIC18F MSB1st         0x00006AE0   
 PIC18F67K40             PIC18/PIC18F MSB1st         0x00006AC0   

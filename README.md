@@ -1,7 +1,6 @@
 Using data file "PKPlusDeviceFile.dat" which is a version 2.63.196 file.
 
 24xx00                  EEPROMS/24LC                0xFFFFFFFF
-
 24xx01                  EEPROMS/24LC                0xFFFFFFFF
 24xx02                  EEPROMS/24LC                0xFFFFFFFF
 24xx04                  EEPROMS/24LC                0xFFFFFFFF

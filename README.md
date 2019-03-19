@@ -1,4 +1,6 @@
-Using data file "PKPlusDeviceFile.dat" which is a version 2.63.196 file.<br>
+Using data file "PKPlusDeviceFile.dat" which is a version 2.63.197 file.<br>
+<br>
+Updated for 24xx102x support
 <br>
 24xx00                  EEPROMS/24LC                0xFFFFFFFF<br>
 24xx01                  EEPROMS/24LC                0xFFFFFFFF<br>

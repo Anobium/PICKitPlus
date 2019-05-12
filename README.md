@@ -1,6 +1,9 @@
 PICkitCommandline v2.19.29822.7058<BR>
 Using data file "PKPlusDeviceFile.dat" which is a version 2.63.198 file.<BR>
 <BR>
+Implemented improved support for 16f1782..1786 MCUs.
+These MCUs were changed from family 18 to family 14
+<BR>
 PIC16F1782              Midrange/1.8V Min           0x00002A00   <BR>
 PIC16F1783              Midrange/1.8V Min           0x00002A20   <BR>
 PIC16F1784              Midrange/1.8V Min           0x00002A40   <BR>

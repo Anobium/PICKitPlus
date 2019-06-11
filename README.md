@@ -1,19 +1,12 @@
 PICkitCommandline v2.19.29822.7058<BR>
-Using data file "PKPlusDeviceFile.dat" which is a version 2.63.198 file.<BR>
+Using data file "PKPlusDeviceFile.dat" which is a version 2.63.199 file.<BR>
 <BR>
-Implemented improved support for 16f1782..1786 MCUs.
-These MCUs were changed from family 18 to family 14
-<BR>
-PIC16F1782              Midrange/1.8V Min           0x00002A00   <BR>
-PIC16F1783              Midrange/1.8V Min           0x00002A20   <BR>
-PIC16F1784              Midrange/1.8V Min           0x00002A40   <BR>
-PIC16F1786              Midrange/1.8V Min           0x00002A60   <BR>
-PIC16F1787              Midrange/1.8V Min           0x00002A80   <BR>
-PIC16LF1782             Midrange/1.8V Min           0x00002AA0   <BR>
-PIC16LF1783             Midrange/1.8V Min           0x00002AC0   <BR>
-PIC16LF1784             Midrange/1.8V Min           0x00002AE0   <BR>
-PIC16LF1786             Midrange/1.8V Min           0x00002B00   <BR>
-PIC16LF1787             Midrange/1.8V Min           0x00002B20   <BR>
+PIC18F65K22             PIC18/PIC18F_K80_K22        0x00005300   <BR>
+PIC18F66K22             PIC18/PIC18F_K80_K22        0x000052C0   <BR>
+PIC18F67K22             PIC18/PIC18F_K80_K22        0x00005180   <BR>
+PIC18F85K22             PIC18/PIC18F_K80_K22        0x00005360   <BR>
+PIC18F86K22             PIC18/PIC18F_K80_K22        0x00005320   <BR>
+PIC18F87K22             PIC18/PIC18F_K80_K22        0x000051C0   <BR>
 11LC010                 EEPROMS/11LC                0xFFFFFFFF   <BR>
 11LC020                 EEPROMS/11LC                0xFFFFFFFF   <BR>
 11LC040                 EEPROMS/11LC                0xFFFFFFFF   <BR>
@@ -263,6 +256,11 @@ PIC16F1776              Midrange/1.8v MinII         0x0000308B   <BR>
 PIC16F1777              Midrange/1.8v MinII         0x0000308E   <BR>
 PIC16F1778              Midrange/1.8v MinII         0x0000308F   <BR>
 PIC16F1779              Midrange/1.8v MinII         0x00003090   <BR>
+PIC16F1782              Midrange/1.8V Min           0x00002A00   <BR>
+PIC16F1783              Midrange/1.8V Min           0x00002A20   <BR>
+PIC16F1784              Midrange/1.8V Min           0x00002A40   <BR>
+PIC16F1786              Midrange/1.8V Min           0x00002A60   <BR>
+PIC16F1787              Midrange/1.8V Min           0x00002A80   <BR>
 PIC16F1788              Midrange/1.8v MinII         0x0000302B   <BR>
 PIC16F1789              Midrange/1.8v MinII         0x0000302A   <BR>
 PIC16F1823              Midrange/1.8V Min           0x00002720   <BR>
@@ -454,6 +452,11 @@ PIC16LF1776             Midrange/1.8v MinII         0x0000308D   <BR>
 PIC16LF1777             Midrange/1.8v MinII         0x00003091   <BR>
 PIC16LF1778             Midrange/1.8v MinII         0x00003092   <BR>
 PIC16LF1779             Midrange/1.8v MinII         0x00003093   <BR>
+PIC16LF1782             Midrange/1.8V Min           0x00002AA0   <BR>
+PIC16LF1783             Midrange/1.8V Min           0x00002AC0   <BR>
+PIC16LF1784             Midrange/1.8V Min           0x00002AE0   <BR>
+PIC16LF1786             Midrange/1.8V Min           0x00002B00   <BR>
+PIC16LF1787             Midrange/1.8V Min           0x00002B20   <BR>
 PIC16LF1788             Midrange/1.8v MinII         0x0000302D   <BR>
 PIC16LF1789             Midrange/1.8v MinII         0x0000302C   <BR>
 PIC16LF1823             Midrange/1.8V Min           0x00002820   <BR>
@@ -574,7 +577,7 @@ PIC18F25K22             PIC18/PIC18F_K_             0x00005540   <BR>
 PIC18F25K40             PIC18/PIC18F MSB1st         0x000069A0   <BR>
 PIC18F25K42             PIC18/PIC18F MSB1st         0x00006C80   <BR>
 PIC18F25K50             PIC18/PIC18F_K_             0x00005C20   <BR>
-PIC18F25K80             PIC18/PIC18F_K80            0x00006180   <BR>
+PIC18F25K80             PIC18/PIC18F_K80_K22        0x00006180   <BR>
 PIC18F25K83             PIC18/PIC18F MSB1st         0x00006EE0   <BR>
 PIC18F25Q10             PIC18/PIC18F MSB1st         0x000071A0   <BR>
 PIC18F2610              PIC18/PIC18F                0x00000CA0   <BR>
@@ -591,7 +594,7 @@ PIC18F26K22             PIC18/PIC18F_K_             0x00005440   <BR>
 PIC18F26K40             PIC18/PIC18F MSB1st         0x00006980   <BR>
 PIC18F26K42             PIC18/PIC18F MSB1st         0x00006C60   <BR>
 PIC18F26K50             PIC18/PIC18F_K_             0x00005D10   <BR>
-PIC18F26K80             PIC18/PIC18F_K80            0x00006120   <BR>
+PIC18F26K80             PIC18/PIC18F_K80_K22        0x00006120   <BR>
 PIC18F26K83             PIC18/PIC18F MSB1st         0x00006EC0   <BR>
 PIC18F26Q10             PIC18/PIC18F MSB1st         0x00007180   <BR>
 PIC18F27J13             PIC18/PIC18F_J_             0x00005960   <BR>
@@ -640,7 +643,7 @@ PIC18F45K22             PIC18/PIC18F_K_             0x00005500   <BR>
 PIC18F45K40             PIC18/PIC18F MSB1st         0x00006940   <BR>
 PIC18F45K42             PIC18/PIC18F MSB1st         0x00006C20   <BR>
 PIC18F45K50             PIC18/PIC18F_K_             0x00005C00   <BR>
-PIC18F45K80             PIC18/PIC18F_K80            0x00006160   <BR>
+PIC18F45K80             PIC18/PIC18F_K80_K22        0x00006160   <BR>
 PIC18F45Q10             PIC18/PIC18F MSB1st         0x00007140   <BR>
 PIC18F4610              PIC18/PIC18F                0x00000C20   <BR>
 PIC18F4620              PIC18/PIC18F                0x00000C00   <BR>
@@ -656,7 +659,7 @@ PIC18F46K22             PIC18/PIC18F_K_             0x00005400   <BR>
 PIC18F46K40             PIC18/PIC18F MSB1st         0x00006920   <BR>
 PIC18F46K42             PIC18/PIC18F MSB1st         0x00006C00   <BR>
 PIC18F46K50             PIC18/PIC18F_K_             0x00005D00   <BR>
-PIC18F46K80             PIC18/PIC18F_K80            0x00006100   <BR>
+PIC18F46K80             PIC18/PIC18F_K80_K22        0x00006100   <BR>
 PIC18F46Q10             PIC18/PIC18F MSB1st         0x00007120   <BR>
 PIC18F47J13             PIC18/PIC18F_J_             0x000059E0   <BR>
 PIC18F47J53             PIC18/PIC18F_J_             0x000058E0   <BR>
@@ -686,7 +689,7 @@ PIC18F65J15             PIC18/PIC18F_J_             0x00001540   <BR>
 PIC18F65J50             PIC18/PIC18F_J_             0x00004100   <BR>
 PIC18F65J90             PIC18/PIC18F_J_             0x00003860   <BR>
 PIC18F65K40             PIC18/PIC18F MSB1st         0x00006800   <BR>
-PIC18F65K80             PIC18/PIC18F_K80            0x00006140   <BR>
+PIC18F65K80             PIC18/PIC18F_K80_K22        0x00006140   <BR>
 PIC18F65K90             PIC18/PIC18F_K_             0x00005240   <BR>
 PIC18F6620              PIC18/PIC18F                0x00000660   <BR>
 PIC18F6621              PIC18/PIC18F                0x00000AA0   <BR>
@@ -704,7 +707,7 @@ PIC18F66J60             PIC18/PIC18F_J_             0x00001800   <BR>
 PIC18F66J65             PIC18/PIC18F_J_             0x00001F00   <BR>
 PIC18F66J90             PIC18/PIC18F_J_             0x00005000   <BR>
 PIC18F66K40             PIC18/PIC18F MSB1st         0x00006AE0   <BR>
-PIC18F66K80             PIC18/PIC18F_K80            0x000060E0   <BR>
+PIC18F66K80             PIC18/PIC18F_K80_K22        0x000060E0   <BR>
 PIC18F6720              PIC18/PIC18F                0x00000620   <BR>
 PIC18F6722              PIC18/PIC18F                0x00001400   <BR>
 PIC18F6723              PIC18/PIC18F                0x00004A00   <BR>
@@ -779,7 +782,7 @@ PIC18LF25K22            PIC18/PIC18F_K_             0x00005560   <BR>
 PIC18LF25K40            PIC18/PIC18F MSB1st         0x00006A80   <BR>
 PIC18LF25K42            PIC18/PIC18F MSB1st         0x00006DC0   <BR>
 PIC18LF25K50            PIC18/PIC18F_K_             0x00005CA0   <BR>
-PIC18LF25K80            PIC18/PIC18F_K80            0x00006260   <BR>
+PIC18LF25K80            PIC18/PIC18F_K80_K22        0x00006260   <BR>
 PIC18LF25K83            PIC18/PIC18F MSB1st         0x00006F20   <BR>
 PIC18LF26J11            PIC18/PIC18F_J_             0x00004E80   <BR>
 PIC18LF26J13            PIC18/PIC18F_J_             0x00005B20   <BR>
@@ -789,7 +792,7 @@ PIC18LF26K22            PIC18/PIC18F_K_             0x00005460   <BR>
 PIC18LF26K40            PIC18/PIC18F MSB1st         0x00006A60   <BR>
 PIC18LF26K42            PIC18/PIC18F MSB1st         0x00006DA0   <BR>
 PIC18LF26K50            PIC18/PIC18F_K_             0x00005D30   <BR>
-PIC18LF26K80            PIC18/PIC18F_K80            0x00006200   <BR>
+PIC18LF26K80            PIC18/PIC18F_K80_K22        0x00006200   <BR>
 PIC18LF26K83            PIC18/PIC18F MSB1st         0x00006F00   <BR>
 PIC18LF27J13            PIC18/PIC18F_J_             0x00005B60   <BR>
 PIC18LF27J53            PIC18/PIC18F_J_             0x00005A60   <BR>
@@ -807,7 +810,7 @@ PIC18LF45K22            PIC18/PIC18F_K_             0x00005520   <BR>
 PIC18LF45K40            PIC18/PIC18F MSB1st         0x00006A20   <BR>
 PIC18LF45K42            PIC18/PIC18F MSB1st         0x00006D60   <BR>
 PIC18LF45K50            PIC18/PIC18F_K_             0x00005C80   <BR>
-PIC18LF45K80            PIC18/PIC18F_K80            0x00006240   <BR>
+PIC18LF45K80            PIC18/PIC18F_K80_K22        0x00006240   <BR>
 PIC18LF46J11            PIC18/PIC18F_J_             0x00004EE0   <BR>
 PIC18LF46J13            PIC18/PIC18F_J_             0x00005BA0   <BR>
 PIC18LF46J50            PIC18/PIC18F_J_             0x00004D60   <BR>
@@ -816,7 +819,7 @@ PIC18LF46K22            PIC18/PIC18F_K_             0x00005420   <BR>
 PIC18LF46K40            PIC18/PIC18F MSB1st         0x00006A00   <BR>
 PIC18LF46K42            PIC18/PIC18F MSB1st         0x00006D40   <BR>
 PIC18LF46K50            PIC18/PIC18F_K_             0x00005D40   <BR>
-PIC18LF46K80            PIC18/PIC18F_K80            0x000061E0   <BR>
+PIC18LF46K80            PIC18/PIC18F_K80_K22        0x000061E0   <BR>
 PIC18LF47J13            PIC18/PIC18F_J_             0x00005BE0   <BR>
 PIC18LF47J53            PIC18/PIC18F_J_             0x00005AE0   <BR>
 PIC18LF47K40            PIC18/PIC18F MSB1st         0x000069E0   <BR>
@@ -826,9 +829,9 @@ PIC18LF56K42            PIC18/PIC18F MSB1st         0x00006CE0   <BR>
 PIC18LF57K42            PIC18/PIC18F MSB1st         0x00006CC0   <BR>
 PIC18LF6520             PIC18/PIC18F                0x00000B30   <BR>
 PIC18LF65K40            PIC18/PIC18F MSB1st         0x00006B60   <BR>
-PIC18LF65K80            PIC18/PIC18F_K80            0x00006220   <BR>
+PIC18LF65K80            PIC18/PIC18F_K80_K22        0x00006220   <BR>
 PIC18LF66K40            PIC18/PIC18F MSB1st         0x00006B40   <BR>
-PIC18LF66K80            PIC18/PIC18F_K80            0x000061C0   <BR>
+PIC18LF66K80            PIC18/PIC18F_K80_K22        0x000061C0   <BR>
 PIC18LF67K40            PIC18/PIC18F MSB1st         0x00006B20   <BR>
 PIC18LF8520             PIC18/PIC18F                0x00000B10   <BR>
 PIC24F04KA200           Others/PIC24                0x00000D02   <BR>

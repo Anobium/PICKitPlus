@@ -1,3 +1,8 @@
 Tool adapted to show correct field names for
-	LVPScript
-	HEFSAFFlashBytes
+  @160
+    LVPScript
+    HEFSAFFlashBytes
+
+  @R200
+    DebugConfig
+    DebugMask

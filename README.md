@@ -1,5 +1,5 @@
 PICkitCommandline v2.24.12277.7110<BR>
-Using data file "PKPlusDeviceFile.dat" which is a version 2.63.202 file.<BR>
+Using data file "PKPlusDeviceFile.dat" which is a version 2.63.203 file.<BR>
 <BR>
 PIC18F65K22             PIC18/PIC18F_K80_K22        0x00005300   <BR>
 PIC18F66K22             PIC18/PIC18F_K80_K22        0x000052C0   <BR>

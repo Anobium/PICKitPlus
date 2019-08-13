@@ -1,12 +1,6 @@
 PICkitCommandline v2.24.12277.7110<BR>
-Using data file "PKPlusDeviceFile.dat" which is a version 2.63.203 file.<BR>
+Using data file "PKPlusDeviceFile.dat" which is a version 2.63.204 file.<BR>
 <BR>
-PIC18F65K22             PIC18/PIC18F_K80_K22        0x00005300   <BR>
-PIC18F66K22             PIC18/PIC18F_K80_K22        0x000052C0   <BR>
-PIC18F67K22             PIC18/PIC18F_K80_K22        0x00005180   <BR>
-PIC18F85K22             PIC18/PIC18F_K80_K22        0x00005360   <BR>
-PIC18F86K22             PIC18/PIC18F_K80_K22        0x00005320   <BR>
-PIC18F87K22             PIC18/PIC18F_K80_K22        0x000051C0   <BR>
 11LC010                 EEPROMS/11LC                0xFFFFFFFF   <BR>
 11LC020                 EEPROMS/11LC                0xFFFFFFFF   <BR>
 11LC040                 EEPROMS/11LC                0xFFFFFFFF   <BR>
@@ -688,6 +682,7 @@ PIC18F65J11             PIC18/PIC18F_J_             0x00003960   <BR>
 PIC18F65J15             PIC18/PIC18F_J_             0x00001540   <BR>
 PIC18F65J50             PIC18/PIC18F_J_             0x00004100   <BR>
 PIC18F65J90             PIC18/PIC18F_J_             0x00003860   <BR>
+PIC18F65K22             PIC18/PIC18F_K80_K22        0x00005300   <BR>
 PIC18F65K40             PIC18/PIC18F MSB1st         0x00006800   <BR>
 PIC18F65K80             PIC18/PIC18F_K80_K22        0x00006140   <BR>
 PIC18F65K90             PIC18/PIC18F_K_             0x00005240   <BR>
@@ -706,6 +701,7 @@ PIC18F66J55             PIC18/PIC18F_J_             0x00004160   <BR>
 PIC18F66J60             PIC18/PIC18F_J_             0x00001800   <BR>
 PIC18F66J65             PIC18/PIC18F_J_             0x00001F00   <BR>
 PIC18F66J90             PIC18/PIC18F_J_             0x00005000   <BR>
+PIC18F66K22             PIC18/PIC18F_K80_K22        0x000052C0   <BR>
 PIC18F66K40             PIC18/PIC18F MSB1st         0x00006AE0   <BR>
 PIC18F66K80             PIC18/PIC18F_K80_K22        0x000060E0   <BR>
 PIC18F6720              PIC18/PIC18F                0x00000620   <BR>
@@ -716,6 +712,7 @@ PIC18F67J11             PIC18/PIC18F_J_             0x00004480   <BR>
 PIC18F67J50             PIC18/PIC18F_J_             0x00004180   <BR>
 PIC18F67J60             PIC18/PIC18F_J_             0x00001F20   <BR>
 PIC18F67J90             PIC18/PIC18F_J_             0x00005020   <BR>
+PIC18F67K22             PIC18/PIC18F_K80_K22        0x00005180   <BR>
 PIC18F67K40             PIC18/PIC18F MSB1st         0x00006AC0   <BR>
 PIC18F8310              PIC18/PIC18F                0x00000BC0   <BR>
 PIC18F8390              PIC18/PIC18F                0x00000B80   <BR>
@@ -736,6 +733,7 @@ PIC18F85J11             PIC18/PIC18F_J_             0x000039E0   <BR>
 PIC18F85J15             PIC18/PIC18F_J_             0x00001700   <BR>
 PIC18F85J50             PIC18/PIC18F_J_             0x000041A0   <BR>
 PIC18F85J90             PIC18/PIC18F_J_             0x000038E0   <BR>
+PIC18F85K22             PIC18/PIC18F_K80_K22        0x00005360   <BR>
 PIC18F8620              PIC18/PIC18F                0x00000640   <BR>
 PIC18F8621              PIC18/PIC18F                0x00000A80   <BR>
 PIC18F8622              PIC18/PIC18F                0x000013A0   <BR>
@@ -751,6 +749,7 @@ PIC18F86J55             PIC18/PIC18F_J_             0x00004200   <BR>
 PIC18F86J60             PIC18/PIC18F_J_             0x00001820   <BR>
 PIC18F86J65             PIC18/PIC18F_J_             0x00001F40   <BR>
 PIC18F86J90             PIC18/PIC18F_J_             0x00005080   <BR>
+PIC18F86K22             PIC18/PIC18F_K80_K22        0x00005320   <BR>
 PIC18F8720              PIC18/PIC18F                0x00000600   <BR>
 PIC18F8722              PIC18/PIC18F                0x00001420   <BR>
 PIC18F8723              PIC18/PIC18F                0x00004A20   <BR>
@@ -759,6 +758,7 @@ PIC18F87J11             PIC18/PIC18F_J_             0x00004520   <BR>
 PIC18F87J50             PIC18/PIC18F_J_             0x00004220   <BR>
 PIC18F87J60             PIC18/PIC18F_J_             0x00001F60   <BR>
 PIC18F87J90             PIC18/PIC18F_J_             0x000050A0   <BR>
+PIC18F87K22             PIC18/PIC18F_K80_K22        0x000051C0   <BR>
 PIC18F96J60             PIC18/PIC18F_J_             0x00001840   <BR>
 PIC18F96J65             PIC18/PIC18F_J_             0x00001F80   <BR>
 PIC18F97J60             PIC18/PIC18F_J_             0x00001FA0   <BR>

@@ -1,5 +1,5 @@
 PICkitCommandline v2.24.12277.7110<BR>
-Using data file "PKPlusDeviceFile.dat" which is a version 2.63.204 file.<BR>
+Using data file "PKPlusDeviceFile.dat" which is a version 2.63.205 file.<BR>
 <BR>
 11LC010                 EEPROMS/11LC                0xFFFFFFFF   <BR>
 11LC020                 EEPROMS/11LC                0xFFFFFFFF   <BR>

@@ -1,4 +1,4 @@
-Use the HEX and/or the ASM to erase the UserIDs from the following chips.
+Use the HEX and/or the ASM to erase the UserIDs for the following chips.
 
 PIC18F26K80
 PIC18F25K80

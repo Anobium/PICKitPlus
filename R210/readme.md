@@ -1,5 +1,6 @@
                 Rev210.  Revised the following parts to enable Erasing of UserIDs when completing Write operation.
                 The Erase operation does not erase the UserIDs this is the same as previous versions of the software.
+                Credit to Bill Roth on his ground to create the ASM.
 
                 PIC18F26K80
                 PIC18F25K80

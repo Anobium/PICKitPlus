@@ -1,5 +1,9 @@
-Using data file "PKPlusDeviceFile.dat" which is a version 2.63.216 file.<BR>
-PICkitCommandline v4.24.13781.7419<BR>
+Using data file "PKPlusDeviceFile.dat" which is a version 2.63.216 file.<BR> 
+  
+See the R216 folder for the details of the R216 changes.
+  
+Extracted using PICkitCommandline v4.24.13781.7419<BR>
+  
 PIC32MX460F512L         Others/PIC32                 0x00078000        <BR>
 PIC32MX460F256L         Others/PIC32                 0x00074000        <BR>
 PIC32MX440F512H         Others/PIC32                 0x00056000        <BR>

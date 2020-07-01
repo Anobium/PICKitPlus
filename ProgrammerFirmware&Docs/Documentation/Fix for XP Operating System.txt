@@ -1,0 +1,8 @@
+If you required XP support please download the additional ZIP and install the contents to ensure you have .NET support.
+
+http://pickitplus.co.uk/xp/dotnetfx.zip
+
+Install WindowsXP-KB942288-v3-x86.  If required, you may need to install the WindowsInstaller-KB893803-v2-x86.exe followed by dotnetfx.exe in specific cases.
+
+
+Enjoy

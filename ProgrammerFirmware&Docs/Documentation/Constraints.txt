@@ -1,0 +1,38 @@
+Please review this key information.
+
+This information will explain a known issue in the original Microchip PICkit Programmer Application.     This issue is not created by this PICKitPlus software but by the end to end architecture of the PICkit Software, the PICkit programmer and the interaction with target microcontroller.
+
+The issue can be easily avoided when using the original Microchip PICkit Programmer Application or this PICKitPlus Programmer Application. This is explained later.
+
+As the PICkit2 and PICkit3 programmers are capable of programming a variety of Flash-based Microchip PIC microcontrollers and serial EEPROM devices.     With support for this wide variety of devices you should be aware of the process when the PICkit and PICkitPlus Programmer Applications are opened/started.       The PICkit and PICkitPlus Programmer Application will attempt to identify the connected device by the device ID and display it in the Configuration window, as shown in PICkit Programmer Application Help.     The PICkit and PICKitPlus Programmer Application will automatically import the proper firmware settings for the device identified.     If the device is not correctly identified, programming operations cannot not be performed.
+
+This process of discovering the device can erase devices when specific usage pattern occurs.      This is NOT an issue of this specific software implementation but is an architectural issue of the Programmer Application.      This issue is caused by
+
+1) the search method attempting to determine the device - the process will search through the device families,
+2) using the Tools/Check Communication option to determine the device - the process will search through the device families.
+
+These two methods will apply a VDD of 3.3V regardless of voltage box setting (since there is no VDD box when starting up).    These search sequences go through each device family attempting to find a device applying VDD and VPP voltages for each specific family.     Unfortunately, it is these search methods that can erase a device.
+
+This can be easily avoided if this does happen to you - if you remember this advice.
+
+- De-select Programmer/Auto-detect on start, or
+
+- Start the PICKitPlus Programmer Application with NO device attached.
+- Then, connect a device when the application is running; select the Device Family by clicking on the Device Family menu. Or,
+
+- Detect a device without it affecting the voltage setting, use menu Device Family > {part family} where {part family} is the family of the device you are using (e.g. PIC18F).
+
+Summary
+
+Tools/Check Communication should only be used if you are experiencing problems reading/writing the device.    Simply put, the "Device Family" selection menu should be used to connect to and check for a device.
+
+Refer to  http://www.microchip.com/forums/m257526.aspx for this issue (circa 2007), and, the Microchip website with respect to alternative programmers.
+
+
+
+
+Notes
+
+For programmers with fixed voltages.    Always ensure the 'Programmer/Auto-detect on start' is not checked and always inspect the operating voltage prior to device discovery.
+
+Updated Jan 2020

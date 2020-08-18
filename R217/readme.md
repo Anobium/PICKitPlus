@@ -1,3 +1,5 @@
+Status - issues with config verification process.  Awaiting new parts from Microchip @ 18/8/2020
+
                 Rev217
 
                 Changes for PIC24FXXKMXXX/KLXXX per DS30000625E table 4-1
@@ -11,4 +13,3 @@
                 PIC24F08KL201 4B06h
                 PIC24F04KL101 4B02h
                 PIC24F04KL100 4B01h
-

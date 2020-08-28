@@ -1,32 +1,32 @@
-Using data file "PKPlusDeviceFile.dat" which is a version 2.63.216 file. 
-  
+Using data file "PKPlusDeviceFile.dat" which is a version 2.63.217 file.
+
 See the R216 folder for the details of the R216 changes.
-  
+
 Extracted using PICkitCommandline v4.24.13781.7419
-  
+
 ````
-PIC32MX460F512L         Others/PIC32                 0x00078000        
-PIC32MX460F256L         Others/PIC32                 0x00074000        
-PIC32MX440F512H         Others/PIC32                 0x00056000        
-PIC32MX440F256H         Others/PIC32                 0x00052000        
-PIC32MX440F128L         Others/PIC32                 0x0006D000        
-PIC32MX440F128H         Others/PIC32                 0x0004D000        
-PIC32MX420F032H         Others/PIC32                 0x00042000        
-PIC32MX360F512L         Others/PIC32                 0x00038000        
-PIC32MX360F256L         Others/PIC32                 0x00034000        
-PIC32MX340F512H         Others/PIC32                 0x00016000        
-PIC32MX340F256H         Others/PIC32                 0x00012000        
-PIC32MX340F128L         Others/PIC32                 0x0002D000        
-PIC32MX340F128H         Others/PIC32                 0x0000D000        
-PIC32MX320F128L         Others/PIC32                 0x0002A000        
-PIC32MX320F128H         Others/PIC32                 0x0000A000        
-PIC32MX320F064H         Others/PIC32                 0x00006000        
-PIC32MX320F032H         Others/PIC32                 0x00002000        
-PIC32MX250F128B         Others/PIC32                 0x04D00053        
-PIC32MX230F064B         Others/PIC32                 0x04D01053        
-PIC32MX220F032B         Others/PIC32                 0x04A00053        
-PIC32MX210F016B         Others/PIC32                 0x04A01053        
-PIC32MX150F128B         Others/PIC32                 0x04D06053        
+PIC32MX460F512L         Others/PIC32                 0x00078000
+PIC32MX460F256L         Others/PIC32                 0x00074000
+PIC32MX440F512H         Others/PIC32                 0x00056000
+PIC32MX440F256H         Others/PIC32                 0x00052000
+PIC32MX440F128L         Others/PIC32                 0x0006D000
+PIC32MX440F128H         Others/PIC32                 0x0004D000
+PIC32MX420F032H         Others/PIC32                 0x00042000
+PIC32MX360F512L         Others/PIC32                 0x00038000
+PIC32MX360F256L         Others/PIC32                 0x00034000
+PIC32MX340F512H         Others/PIC32                 0x00016000
+PIC32MX340F256H         Others/PIC32                 0x00012000
+PIC32MX340F128L         Others/PIC32                 0x0002D000
+PIC32MX340F128H         Others/PIC32                 0x0000D000
+PIC32MX320F128L         Others/PIC32                 0x0002A000
+PIC32MX320F128H         Others/PIC32                 0x0000A000
+PIC32MX320F064H         Others/PIC32                 0x00006000
+PIC32MX320F032H         Others/PIC32                 0x00002000
+PIC32MX250F128B         Others/PIC32                 0x04D00053
+PIC32MX230F064B         Others/PIC32                 0x04D01053
+PIC32MX220F032B         Others/PIC32                 0x04A00053
+PIC32MX210F016B         Others/PIC32                 0x04A01053
+PIC32MX150F128B         Others/PIC32                 0x04D06053
 PIC24HJ64GP510          Others/PIC24                 0x0000004B    *    Programmer to Go Supported
 PIC24HJ64GP506          Others/PIC24                 0x00000049    *    Programmer to Go Supported
 PIC24HJ64GP504          Others/PIC24                 0x00000677    *    Programmer to Go Supported
@@ -111,23 +111,23 @@ PIC24F08KA101           Others/PIC24                 0x00000B08    *    Programm
 PIC24F04KA201           Others/PIC24                 0x00000D00    *    Programmer to Go Supported
 PIC24F04KA200           Others/PIC24                 0x00000D02    *    Programmer to Go Supported
 PIC18LF8520             PIC18/PIC18F                 0x00000B10    *    Programmer to Go Supported
-PIC18LF67K40            PIC18/PIC18F MSB1st          0x00006B20    *   
+PIC18LF67K40            PIC18/PIC18F MSB1st          0x00006B20    *
 PIC18LF66K80            PIC18/PIC18F_K90_K80_K22     0x000061C0    *    Programmer to Go Supported
-PIC18LF66K40            PIC18/PIC18F MSB1st          0x00006B40    *   
+PIC18LF66K40            PIC18/PIC18F MSB1st          0x00006B40    *
 PIC18LF65K80            PIC18/PIC18F_K90_K80_K22     0x00006220    *    Programmer to Go Supported
-PIC18LF65K40            PIC18/PIC18F MSB1st          0x00006B60    *   
+PIC18LF65K40            PIC18/PIC18F MSB1st          0x00006B60    *
 PIC18LF6520             PIC18/PIC18F                 0x00000B30    *    Programmer to Go Supported
-PIC18LF57K42            PIC18/PIC18F MSB1st          0x00006CC0    *   
-PIC18LF56K42            PIC18/PIC18F MSB1st          0x00006CE0    *   
-PIC18LF55K42            PIC18/PIC18F MSB1st          0x00006D00    *   
-PIC18LF47K42            PIC18/PIC18F MSB1st          0x00006D20    *   
-PIC18LF47K40            PIC18/PIC18F MSB1st          0x000069E0    *   
+PIC18LF57K42            PIC18/PIC18F MSB1st          0x00006CC0    *
+PIC18LF56K42            PIC18/PIC18F MSB1st          0x00006CE0    *
+PIC18LF55K42            PIC18/PIC18F MSB1st          0x00006D00    *
+PIC18LF47K42            PIC18/PIC18F MSB1st          0x00006D20    *
+PIC18LF47K40            PIC18/PIC18F MSB1st          0x000069E0    *
 PIC18LF47J53            PIC18/PIC18F_J_              0x00005AE0    *    Programmer to Go Supported
 PIC18LF47J13            PIC18/PIC18F_J_              0x00005BE0    *    Programmer to Go Supported
 PIC18LF46K80            PIC18/PIC18F_K90_K80_K22     0x000061E0    *    Programmer to Go Supported
 PIC18LF46K50            PIC18/PIC18F_K_              0x00005D40    *    Programmer to Go Supported
-PIC18LF46K42            PIC18/PIC18F MSB1st          0x00006D40    *   
-PIC18LF46K40            PIC18/PIC18F MSB1st          0x00006A00    *   
+PIC18LF46K42            PIC18/PIC18F MSB1st          0x00006D40    *
+PIC18LF46K40            PIC18/PIC18F MSB1st          0x00006A00    *
 PIC18LF46K22            PIC18/PIC18F_K_              0x00005420    *    Programmer to Go Supported
 PIC18LF46J53            PIC18/PIC18F_J_              0x00005AA0    *    Programmer to Go Supported
 PIC18LF46J50            PIC18/PIC18F_J_              0x00004D60    *    Programmer to Go Supported
@@ -135,8 +135,8 @@ PIC18LF46J13            PIC18/PIC18F_J_              0x00005BA0    *    Programm
 PIC18LF46J11            PIC18/PIC18F_J_              0x00004EE0    *    Programmer to Go Supported
 PIC18LF45K80            PIC18/PIC18F_K90_K80_K22     0x00006240    *    Programmer to Go Supported
 PIC18LF45K50            PIC18/PIC18F_K_              0x00005C80    *    Programmer to Go Supported
-PIC18LF45K42            PIC18/PIC18F MSB1st          0x00006D60    *   
-PIC18LF45K40            PIC18/PIC18F MSB1st          0x00006A20    *   
+PIC18LF45K42            PIC18/PIC18F MSB1st          0x00006D60    *
+PIC18LF45K40            PIC18/PIC18F MSB1st          0x00006A20    *
 PIC18LF45K22            PIC18/PIC18F_K_              0x00005520    *    Programmer to Go Supported
 PIC18LF45J50            PIC18/PIC18F_J_              0x00004D40    *    Programmer to Go Supported
 PIC18LF45J11            PIC18/PIC18F_J_              0x00004EC0    *    Programmer to Go Supported
@@ -146,32 +146,32 @@ PIC18LF44J50            PIC18/PIC18F_J_              0x00004D20    *    Programm
 PIC18LF44J11            PIC18/PIC18F_J_              0x00004EA0    *    Programmer to Go Supported
 PIC18LF44J10            PIC18/PIC18F_J_              0x00001D60    *    Programmer to Go Supported
 PIC18LF43K22            PIC18/PIC18F_K_              0x00005720    *    Programmer to Go Supported
-PIC18LF27K42            PIC18/PIC18F MSB1st          0x00006D80    *   
-PIC18LF27K40            PIC18/PIC18F MSB1st          0x00006A40    *   
+PIC18LF27K42            PIC18/PIC18F MSB1st          0x00006D80    *
+PIC18LF27K40            PIC18/PIC18F MSB1st          0x00006A40    *
 PIC18LF27J53            PIC18/PIC18F_J_              0x00005A60    *    Programmer to Go Supported
 PIC18LF27J13            PIC18/PIC18F_J_              0x00005B60    *    Programmer to Go Supported
-PIC18LF26K83            PIC18/PIC18F MSB1st          0x00006F00    *   
+PIC18LF26K83            PIC18/PIC18F MSB1st          0x00006F00    *
 PIC18LF26K80            PIC18/PIC18F_K90_K80_K22     0x00006200    *    Programmer to Go Supported
 PIC18LF26K50            PIC18/PIC18F_K_              0x00005D30    *    Programmer to Go Supported
-PIC18LF26K42            PIC18/PIC18F MSB1st          0x00006DA0    *   
-PIC18LF26K40            PIC18/PIC18F MSB1st          0x00006A60    *   
+PIC18LF26K42            PIC18/PIC18F MSB1st          0x00006DA0    *
+PIC18LF26K40            PIC18/PIC18F MSB1st          0x00006A60    *
 PIC18LF26K22            PIC18/PIC18F_K_              0x00005460    *    Programmer to Go Supported
 PIC18LF26J53            PIC18/PIC18F_J_              0x00005A20    *    Programmer to Go Supported
 PIC18LF26J50            PIC18/PIC18F_J_              0x00004D00    *    Programmer to Go Supported
 PIC18LF26J13            PIC18/PIC18F_J_              0x00005B20    *    Programmer to Go Supported
 PIC18LF26J11            PIC18/PIC18F_J_              0x00004E80    *    Programmer to Go Supported
-PIC18LF25K83            PIC18/PIC18F MSB1st          0x00006F20    *   
+PIC18LF25K83            PIC18/PIC18F MSB1st          0x00006F20    *
 PIC18LF25K80            PIC18/PIC18F_K90_K80_K22     0x00006260    *    Programmer to Go Supported
 PIC18LF25K50            PIC18/PIC18F_K_              0x00005CA0    *    Programmer to Go Supported
-PIC18LF25K42            PIC18/PIC18F MSB1st          0x00006DC0    *   
-PIC18LF25K40            PIC18/PIC18F MSB1st          0x00006A80    *   
+PIC18LF25K42            PIC18/PIC18F MSB1st          0x00006DC0    *
+PIC18LF25K40            PIC18/PIC18F MSB1st          0x00006A80    *
 PIC18LF25K22            PIC18/PIC18F_K_              0x00005560    *    Programmer to Go Supported
 PIC18LF25J50            PIC18/PIC18F_J_              0x00004CE0    *    Programmer to Go Supported
 PIC18LF25J11            PIC18/PIC18F_J_              0x00004E60    *    Programmer to Go Supported
 PIC18LF25J10            PIC18/PIC18F_J_              0x00001C40    *    Programmer to Go Supported
 PIC18LF24K50            PIC18/PIC18F_K_              0x00005CE0    *    Programmer to Go Supported
-PIC18LF24K42            PIC18/PIC18F MSB1st          0x00006DE0    *   
-PIC18LF24K40            PIC18/PIC18F MSB1st          0x00006AA0    *   
+PIC18LF24K42            PIC18/PIC18F MSB1st          0x00006DE0    *
+PIC18LF24K40            PIC18/PIC18F MSB1st          0x00006AA0    *
 PIC18LF24K22            PIC18/PIC18F_K_              0x00005660    *    Programmer to Go Supported
 PIC18LF24J50            PIC18/PIC18F_J_              0x00004CC0    *    Programmer to Go Supported
 PIC18LF24J11            PIC18/PIC18F_J_              0x00004E40    *    Programmer to Go Supported
@@ -234,7 +234,7 @@ PIC18F8393              PIC18/PIC18F                 0x00001A20    *    Programm
 PIC18F8390              PIC18/PIC18F                 0x00000B80    *    Programmer to Go Supported
 PIC18F8310              PIC18/PIC18F                 0x00000BC0    *    Programmer to Go Supported
 PIC18F67K90             PIC18/PIC18F_K90_K80_K22     0x00005100    *    Programmer to Go Supported
-PIC18F67K40             PIC18/PIC18F MSB1st          0x00006AC0    *   
+PIC18F67K40             PIC18/PIC18F MSB1st          0x00006AC0    *
 PIC18F67K22             PIC18/PIC18F_K90_K80_K22     0x00005180    *    Programmer to Go Supported
 PIC18F67J90             PIC18/PIC18F_J_              0x00005020    *    Programmer to Go Supported
 PIC18F67J60             PIC18/PIC18F_J_              0x00001F20    *    Programmer to Go Supported
@@ -246,7 +246,7 @@ PIC18F6722              PIC18/PIC18F                 0x00001400    *    Programm
 PIC18F6720              PIC18/PIC18F                 0x00000620    *    Programmer to Go Supported
 PIC18F66K90             PIC18/PIC18F_K90_K80_K22     0x00005200    *    Programmer to Go Supported
 PIC18F66K80             PIC18/PIC18F_K90_K80_K22     0x000060E0    *    Programmer to Go Supported
-PIC18F66K40             PIC18/PIC18F MSB1st          0x00006AE0    *   
+PIC18F66K40             PIC18/PIC18F MSB1st          0x00006AE0    *
 PIC18F66K22             PIC18/PIC18F_K90_K80_K22     0x000052C0    *    Programmer to Go Supported
 PIC18F66J90             PIC18/PIC18F_J_              0x00005000    *    Programmer to Go Supported
 PIC18F66J65             PIC18/PIC18F_J_              0x00001F00    *    Programmer to Go Supported
@@ -265,7 +265,7 @@ PIC18F6621              PIC18/PIC18F                 0x00000AA0    *    Programm
 PIC18F6620              PIC18/PIC18F                 0x00000660    *    Programmer to Go Supported
 PIC18F65K90             PIC18/PIC18F_K90_K80_K22     0x00005240    *    Programmer to Go Supported
 PIC18F65K80             PIC18/PIC18F_K90_K80_K22     0x00006140    *    Programmer to Go Supported
-PIC18F65K40             PIC18/PIC18F MSB1st          0x00006800    *   
+PIC18F65K40             PIC18/PIC18F MSB1st          0x00006800    *
 PIC18F65K22             PIC18/PIC18F_K90_K80_K22     0x00005300    *    Programmer to Go Supported
 PIC18F65J90             PIC18/PIC18F_J_              0x00003860    *    Programmer to Go Supported
 PIC18F65J50             PIC18/PIC18F_J_              0x00004100    *    Programmer to Go Supported
@@ -286,19 +286,19 @@ PIC18F63J11             PIC18/PIC18F_J_              0x00003900    *    Programm
 PIC18F6393              PIC18/PIC18F                 0x00001A00    *    Programmer to Go Supported
 PIC18F6390              PIC18/PIC18F                 0x00000BA0    *    Programmer to Go Supported
 PIC18F6310              PIC18/PIC18F                 0x00000BE0    *    Programmer to Go Supported
-PIC18F57K42             PIC18/PIC18F MSB1st          0x00006B80    *   
-PIC18F56K42             PIC18/PIC18F MSB1st          0x00006BA0    *   
-PIC18F55K42             PIC18/PIC18F MSB1st          0x00006BC0    *   
-PIC18F47Q10             PIC18/PIC18F MSB1st          0x000070E0    *   
-PIC18F47K42             PIC18/PIC18F MSB1st          0x00006BE0    *   
-PIC18F47K40             PIC18/PIC18F MSB1st          0x00006900    *   
+PIC18F57K42             PIC18/PIC18F MSB1st          0x00006B80    *
+PIC18F56K42             PIC18/PIC18F MSB1st          0x00006BA0    *
+PIC18F55K42             PIC18/PIC18F MSB1st          0x00006BC0    *
+PIC18F47Q10             PIC18/PIC18F MSB1st          0x000070E0    *
+PIC18F47K42             PIC18/PIC18F MSB1st          0x00006BE0    *
+PIC18F47K40             PIC18/PIC18F MSB1st          0x00006900    *
 PIC18F47J53             PIC18/PIC18F_J_              0x000058E0    *    Programmer to Go Supported
 PIC18F47J13             PIC18/PIC18F_J_              0x000059E0    *    Programmer to Go Supported
-PIC18F46Q10             PIC18/PIC18F MSB1st          0x00007120    *   
+PIC18F46Q10             PIC18/PIC18F MSB1st          0x00007120    *
 PIC18F46K80             PIC18/PIC18F_K90_K80_K22     0x00006100    *    Programmer to Go Supported
 PIC18F46K50             PIC18/PIC18F_K_              0x00005D00    *    Programmer to Go Supported
-PIC18F46K42             PIC18/PIC18F MSB1st          0x00006C00    *   
-PIC18F46K40             PIC18/PIC18F MSB1st          0x00006920    *   
+PIC18F46K42             PIC18/PIC18F MSB1st          0x00006C00    *
+PIC18F46K40             PIC18/PIC18F MSB1st          0x00006920    *
 PIC18F46K22             PIC18/PIC18F_K_              0x00005400    *    Programmer to Go Supported
 PIC18F46K20             PIC18/PIC18F_K_              0x00002000    *    Programmer to Go Supported
 PIC18F46J53             PIC18/PIC18F_J_              0x000058A0    *    Programmer to Go Supported
@@ -310,11 +310,11 @@ PIC18F4682              PIC18/PIC18F                 0x00002740    *    Programm
 PIC18F4680              PIC18/PIC18F                 0x00000E80    *    Programmer to Go Supported
 PIC18F4620              PIC18/PIC18F                 0x00000C00    *    Programmer to Go Supported
 PIC18F4610              PIC18/PIC18F                 0x00000C20    *    Programmer to Go Supported
-PIC18F45Q10             PIC18/PIC18F MSB1st          0x00007140    *   
+PIC18F45Q10             PIC18/PIC18F MSB1st          0x00007140    *
 PIC18F45K80             PIC18/PIC18F_K90_K80_K22     0x00006160    *    Programmer to Go Supported
 PIC18F45K50             PIC18/PIC18F_K_              0x00005C00    *    Programmer to Go Supported
-PIC18F45K42             PIC18/PIC18F MSB1st          0x00006C20    *   
-PIC18F45K40             PIC18/PIC18F MSB1st          0x00006940    *   
+PIC18F45K42             PIC18/PIC18F MSB1st          0x00006C20    *
+PIC18F45K40             PIC18/PIC18F MSB1st          0x00006940    *
 PIC18F45K22             PIC18/PIC18F_K_              0x00005500    *    Programmer to Go Supported
 PIC18F45K20             PIC18/PIC18F_K_              0x00002040    *    Programmer to Go Supported
 PIC18F45J50             PIC18/PIC18F_J_              0x00004C80    *    Programmer to Go Supported
@@ -353,18 +353,18 @@ PIC18F4321              PIC18/PIC18F                 0x00002100    *    Programm
 PIC18F4320              PIC18/PIC18F                 0x00000520    *    Programmer to Go Supported
 PIC18F4221              PIC18/PIC18F                 0x00002140    *    Programmer to Go Supported
 PIC18F4220              PIC18/PIC18F                 0x000005A0    *    Programmer to Go Supported
-PIC18F27Q10             PIC18/PIC18F MSB1st          0x00007100    *   
-PIC18F27K42             PIC18/PIC18F MSB1st          0x00006C40    *   
-PIC18F27K40             PIC18/PIC18F MSB1st          0x00006960    *   
+PIC18F27Q10             PIC18/PIC18F MSB1st          0x00007100    *
+PIC18F27K42             PIC18/PIC18F MSB1st          0x00006C40    *
+PIC18F27K40             PIC18/PIC18F MSB1st          0x00006960    *
 PIC18F27J53             PIC18/PIC18F_J_              0x00005860    *    Programmer to Go Supported
 PIC18F27J13             PIC18/PIC18F_J_              0x00005960    *    Programmer to Go Supported
-PIC18F26Q43             PIC18/PIC18F MSB1st          0x00007420    *   
-PIC18F26Q10             PIC18/PIC18F MSB1st          0x00007180    *   
-PIC18F26K83             PIC18/PIC18F MSB1st          0x00006EC0    *   
+PIC18F26Q43             PIC18/PIC18F MSB1st          0x00007420    *
+PIC18F26Q10             PIC18/PIC18F MSB1st          0x00007180    *
+PIC18F26K83             PIC18/PIC18F MSB1st          0x00006EC0    *
 PIC18F26K80             PIC18/PIC18F_K90_K80_K22     0x00006120    *    Programmer to Go Supported
 PIC18F26K50             PIC18/PIC18F_K_              0x00005D10    *    Programmer to Go Supported
-PIC18F26K42             PIC18/PIC18F MSB1st          0x00006C60    *   
-PIC18F26K40             PIC18/PIC18F MSB1st          0x00006980    *   
+PIC18F26K42             PIC18/PIC18F MSB1st          0x00006C60    *
+PIC18F26K40             PIC18/PIC18F MSB1st          0x00006980    *
 PIC18F26K22             PIC18/PIC18F_K_              0x00005440    *    Programmer to Go Supported
 PIC18F26K20             PIC18/PIC18F_K_              0x00002020    *    Programmer to Go Supported
 PIC18F26J53             PIC18/PIC18F_J_              0x00005820    *    Programmer to Go Supported
@@ -376,12 +376,12 @@ PIC18F2682              PIC18/PIC18F                 0x00002700    *    Programm
 PIC18F2680              PIC18/PIC18F                 0x00000EC0    *    Programmer to Go Supported
 PIC18F2620              PIC18/PIC18F                 0x00000C80    *    Programmer to Go Supported
 PIC18F2610              PIC18/PIC18F                 0x00000CA0    *    Programmer to Go Supported
-PIC18F25Q10             PIC18/PIC18F MSB1st          0x000071A0    *   
-PIC18F25K83             PIC18/PIC18F MSB1st          0x00006EE0    *   
+PIC18F25Q10             PIC18/PIC18F MSB1st          0x000071A0    *
+PIC18F25K83             PIC18/PIC18F MSB1st          0x00006EE0    *
 PIC18F25K80             PIC18/PIC18F_K90_K80_K22     0x00006180    *    Programmer to Go Supported
 PIC18F25K50             PIC18/PIC18F_K_              0x00005C20    *    Programmer to Go Supported
-PIC18F25K42             PIC18/PIC18F MSB1st          0x00006C80    *   
-PIC18F25K40             PIC18/PIC18F MSB1st          0x000069A0    *   
+PIC18F25K42             PIC18/PIC18F MSB1st          0x00006C80    *
+PIC18F25K40             PIC18/PIC18F MSB1st          0x000069A0    *
 PIC18F25K22             PIC18/PIC18F_K_              0x00005540    *    Programmer to Go Supported
 PIC18F25K20             PIC18/PIC18F_K_              0x00002060    *    Programmer to Go Supported
 PIC18F25J50             PIC18/PIC18F_J_              0x00004C20    *    Programmer to Go Supported
@@ -398,10 +398,10 @@ PIC18F2520              PIC18/PIC18F                 0x00001100    *    Programm
 PIC18F252               PIC18/PIC18F                 0x00000400    *    Programmer to Go Supported
 PIC18F2515              PIC18/PIC18F                 0x00000CE0    *    Programmer to Go Supported
 PIC18F2510              PIC18/PIC18F                 0x00001120    *    Programmer to Go Supported
-PIC18F24Q10             PIC18/PIC18F MSB1st          0x000071C0    *   
+PIC18F24Q10             PIC18/PIC18F MSB1st          0x000071C0    *
 PIC18F24K50             PIC18/PIC18F_K_              0x00005C60    *    Programmer to Go Supported
-PIC18F24K42             PIC18/PIC18F MSB1st          0x00006CA0    *   
-PIC18F24K40             PIC18/PIC18F MSB1st          0x000069C0    *   
+PIC18F24K42             PIC18/PIC18F MSB1st          0x00006CA0    *
+PIC18F24K40             PIC18/PIC18F MSB1st          0x000069C0    *
 PIC18F24K22             PIC18/PIC18F_K_              0x00005640    *    Programmer to Go Supported
 PIC18F24K20             PIC18/PIC18F_K_              0x000020A0    *    Programmer to Go Supported
 PIC18F24J50             PIC18/PIC18F_J_              0x00004C00    *    Programmer to Go Supported
@@ -452,36 +452,36 @@ PIC16LF1937             Midrange/1.8V Min            0x00002480    *    Programm
 PIC16LF1936             Midrange/1.8V Min            0x00002460    *    Programmer to Go Supported
 PIC16LF1934             Midrange/1.8V Min            0x00002440    *    Programmer to Go Supported
 PIC16LF1933             Midrange/1.8V Min            0x00002400    *    Programmer to Go Supported
-PIC16LF19197            Midrange/1.8V Min MSB1st     0x000030A3    *   
-PIC16LF19196            Midrange/1.8V Min MSB1st     0x000030A1    *   
-PIC16LF19195            Midrange/1.8V Min MSB1st     0x0000309F    *   
-PIC16LF19186            Midrange/1.8V Min MSB1st     0x000030BD    *   
-PIC16LF19185            Midrange/1.8V Min MSB1st     0x000030BB    *   
-PIC16LF19176            Midrange/1.8V Min MSB1st     0x0000309D    *   
-PIC16LF19175            Midrange/1.8V Min MSB1st     0x0000309B    *   
-PIC16LF19156            Midrange/1.8V Min MSB1st     0x00003099    *   
-PIC16LF19155            Midrange/1.8V Min MSB1st     0x00003097    *   
+PIC16LF19197            Midrange/1.8V Min MSB1st     0x000030A3    *
+PIC16LF19196            Midrange/1.8V Min MSB1st     0x000030A1    *
+PIC16LF19195            Midrange/1.8V Min MSB1st     0x0000309F    *
+PIC16LF19186            Midrange/1.8V Min MSB1st     0x000030BD    *
+PIC16LF19185            Midrange/1.8V Min MSB1st     0x000030BB    *
+PIC16LF19176            Midrange/1.8V Min MSB1st     0x0000309D    *
+PIC16LF19175            Midrange/1.8V Min MSB1st     0x0000309B    *
+PIC16LF19156            Midrange/1.8V Min MSB1st     0x00003099    *
+PIC16LF19155            Midrange/1.8V Min MSB1st     0x00003097    *
 PIC16LF1907             Midrange/1.8V Min            0x00002C40    *    Programmer to Go Supported
 PIC16LF1906             Midrange/1.8V Min            0x00002C60    *    Programmer to Go Supported
 PIC16LF1904             Midrange/1.8V Min            0x00002C80    *    Programmer to Go Supported
 PIC16LF1903             Midrange/1.8V Min            0x00002C00    *    Programmer to Go Supported
 PIC16LF1902             Midrange/1.8V Min            0x00002C20    *    Programmer to Go Supported
-PIC16LF18877            Midrange/1.8V Min MSB1st     0x00003077    *   
-PIC16LF18876            Midrange/1.8V Min MSB1st     0x00003073    *   
-PIC16LF18875            Midrange/1.8V Min MSB1st     0x0000306F    *   
-PIC16LF18857            Midrange/1.8V Min MSB1st     0x00003076    *   
-PIC16LF18856            Midrange/1.8V Min MSB1st     0x00003072    *   
-PIC16LF18855            Midrange/1.8V Min MSB1st     0x0000306E    *   
-PIC16LF18854            Midrange/1.8V Min MSB1st     0x0000306B    *   
+PIC16LF18877            Midrange/1.8V Min MSB1st     0x00003077    *
+PIC16LF18876            Midrange/1.8V Min MSB1st     0x00003073    *
+PIC16LF18875            Midrange/1.8V Min MSB1st     0x0000306F    *
+PIC16LF18857            Midrange/1.8V Min MSB1st     0x00003076    *
+PIC16LF18856            Midrange/1.8V Min MSB1st     0x00003072    *
+PIC16LF18855            Midrange/1.8V Min MSB1st     0x0000306E    *
+PIC16LF18854            Midrange/1.8V Min MSB1st     0x0000306B    *
 PIC16LF1847             Midrange/1.8V Min            0x000014A0    *    Programmer to Go Supported
-PIC16LF18456            Midrange/1.8V Min MSB1st     0x000030DA    *   
-PIC16LF18455            Midrange/1.8V Min MSB1st     0x000030D8    *   
-PIC16LF18446            Midrange/1.8V Min MSB1st     0x000030D5    *   
-PIC16LF18445            Midrange/1.8V Min MSB1st     0x000030D1    *   
-PIC16LF18444            Midrange/1.8V Min MSB1st     0x000030CF    *   
-PIC16LF18426            Midrange/1.8V Min MSB1st     0x000030D3    *   
-PIC16LF18425            Midrange/1.8V Min MSB1st     0x000030CD    *   
-PIC16LF18424            Midrange/1.8V Min MSB1st     0x000030CB    *   
+PIC16LF18456            Midrange/1.8V Min MSB1st     0x000030DA    *
+PIC16LF18455            Midrange/1.8V Min MSB1st     0x000030D8    *
+PIC16LF18446            Midrange/1.8V Min MSB1st     0x000030D5    *
+PIC16LF18445            Midrange/1.8V Min MSB1st     0x000030D1    *
+PIC16LF18444            Midrange/1.8V Min MSB1st     0x000030CF    *
+PIC16LF18426            Midrange/1.8V Min MSB1st     0x000030D3    *
+PIC16LF18425            Midrange/1.8V Min MSB1st     0x000030CD    *
+PIC16LF18424            Midrange/1.8V Min MSB1st     0x000030CB    *
 PIC16LF18346            Midrange/1.8v MinII          0x000030A7    *    Programmer to Go Supported
 PIC16LF18345            Midrange/1.8v MinII          0x00003041    *    Programmer to Go Supported
 PIC16LF18344            Midrange/1.8v MinII          0x0000303D    *    Programmer to Go Supported
@@ -537,19 +537,19 @@ PIC16LF1567             Midrange/1.8v MinII          0x00003047    *    Programm
 PIC16LF1566             Midrange/1.8v MinII          0x00003046    *    Programmer to Go Supported
 PIC16LF1559             Midrange/1.8v MinII          0x00002F20    *    Programmer to Go Supported
 PIC16LF1554             Midrange/1.8v MinII          0x00002F00    *    Programmer to Go Supported
-PIC16LF15386            Midrange/1.8V Min MSB1st     0x000030B9    *   
-PIC16LF15385            Midrange/1.8V Min MSB1st     0x000030B7    *   
-PIC16LF15376            Midrange/1.8V Min MSB1st     0x000030B5    *   
-PIC16LF15375            Midrange/1.8V Min MSB1st     0x000030B3    *   
-PIC16LF15356            Midrange/1.8V Min MSB1st     0x000030B1    *   
-PIC16LF15355            Midrange/1.8V Min MSB1st     0x000030AF    *   
-PIC16LF15354            Midrange/1.8V Min MSB1st     0x000030AD    *   
-PIC16LF15345            Midrange/1.8V Min MSB1st     0x000030C9    *   
-PIC16LF15344            Midrange/1.8V Min MSB1st     0x000030C5    *   
-PIC16LF15325            Midrange/1.8V Min MSB1st     0x000030C7    *   
-PIC16LF15324            Midrange/1.8V Min MSB1st     0x000030C3    *   
-PIC16LF15323            Midrange/1.8V Min MSB1st     0x000030C1    *   
-PIC16LF15313            Midrange/1.8V Min MSB1st     0x000030BF    *   
+PIC16LF15386            Midrange/1.8V Min MSB1st     0x000030B9    *
+PIC16LF15385            Midrange/1.8V Min MSB1st     0x000030B7    *
+PIC16LF15376            Midrange/1.8V Min MSB1st     0x000030B5    *
+PIC16LF15375            Midrange/1.8V Min MSB1st     0x000030B3    *
+PIC16LF15356            Midrange/1.8V Min MSB1st     0x000030B1    *
+PIC16LF15355            Midrange/1.8V Min MSB1st     0x000030AF    *
+PIC16LF15354            Midrange/1.8V Min MSB1st     0x000030AD    *
+PIC16LF15345            Midrange/1.8V Min MSB1st     0x000030C9    *
+PIC16LF15344            Midrange/1.8V Min MSB1st     0x000030C5    *
+PIC16LF15325            Midrange/1.8V Min MSB1st     0x000030C7    *
+PIC16LF15324            Midrange/1.8V Min MSB1st     0x000030C3    *
+PIC16LF15323            Midrange/1.8V Min MSB1st     0x000030C1    *
+PIC16LF15313            Midrange/1.8V Min MSB1st     0x000030BF    *
 PIC16LF1527             Midrange/1.8V Min            0x000015E0    *    Programmer to Go Supported
 PIC16LF1526             Midrange/1.8V Min            0x000015C0    *    Programmer to Go Supported
 PIC16LF1519             Midrange/1.8V Min            0x000017E0    *    Programmer to Go Supported
@@ -653,31 +653,31 @@ PIC16F1937              Midrange/1.8V Min            0x00002380    *    Programm
 PIC16F1936              Midrange/1.8V Min            0x00002360    *    Programmer to Go Supported
 PIC16F1934              Midrange/1.8V Min            0x00002340    *    Programmer to Go Supported
 PIC16F1933              Midrange/1.8V Min            0x00002300    *    Programmer to Go Supported
-PIC16F19197             Midrange/1.8V Min MSB1st     0x000030A1    *   
-PIC16F19196             Midrange/1.8V Min MSB1st     0x000030A0    *   
-PIC16F19195             Midrange/1.8V Min MSB1st     0x0000309E    *   
-PIC16F19186             Midrange/1.8V Min MSB1st     0x000030BC    *   
-PIC16F19185             Midrange/1.8V Min MSB1st     0x000030BA    *   
-PIC16F19176             Midrange/1.8V Min MSB1st     0x0000309C    *   
-PIC16F19175             Midrange/1.8V Min MSB1st     0x0000309A    *   
-PIC16F19156             Midrange/1.8V Min MSB1st     0x00003098    *   
-PIC16F19155             Midrange/1.8V Min MSB1st     0x00003096    *   
-PIC16F18877             Midrange/1.8V Min MSB1st     0x00003075    *   
-PIC16F18876             Midrange/1.8V Min MSB1st     0x00003071    *   
-PIC16F18875             Midrange/1.8V Min MSB1st     0x0000306D    *   
-PIC16F18857             Midrange/1.8V Min MSB1st     0x00003074    *   
-PIC16F18856             Midrange/1.8V Min MSB1st     0x00003070    *   
-PIC16F18855             Midrange/1.8V Min MSB1st     0x0000306C    *   
-PIC16F18854             Midrange/1.8V Min MSB1st     0x0000306A    *   
+PIC16F19197             Midrange/1.8V Min MSB1st     0x000030A1    *
+PIC16F19196             Midrange/1.8V Min MSB1st     0x000030A0    *
+PIC16F19195             Midrange/1.8V Min MSB1st     0x0000309E    *
+PIC16F19186             Midrange/1.8V Min MSB1st     0x000030BC    *
+PIC16F19185             Midrange/1.8V Min MSB1st     0x000030BA    *
+PIC16F19176             Midrange/1.8V Min MSB1st     0x0000309C    *
+PIC16F19175             Midrange/1.8V Min MSB1st     0x0000309A    *
+PIC16F19156             Midrange/1.8V Min MSB1st     0x00003098    *
+PIC16F19155             Midrange/1.8V Min MSB1st     0x00003096    *
+PIC16F18877             Midrange/1.8V Min MSB1st     0x00003075    *
+PIC16F18876             Midrange/1.8V Min MSB1st     0x00003071    *
+PIC16F18875             Midrange/1.8V Min MSB1st     0x0000306D    *
+PIC16F18857             Midrange/1.8V Min MSB1st     0x00003074    *
+PIC16F18856             Midrange/1.8V Min MSB1st     0x00003070    *
+PIC16F18855             Midrange/1.8V Min MSB1st     0x0000306C    *
+PIC16F18854             Midrange/1.8V Min MSB1st     0x0000306A    *
 PIC16F1847              Midrange/1.8V Min            0x00001480    *    Programmer to Go Supported
-PIC16F18456             Midrange/1.8V Min MSB1st     0x000030D9    *   
-PIC16F18455             Midrange/1.8V Min MSB1st     0x000030D7    *   
-PIC16F18446             Midrange/1.8V Min MSB1st     0x000030D4    *   
-PIC16F18445             Midrange/1.8V Min MSB1st     0x000030D0    *   
-PIC16F18444             Midrange/1.8V Min MSB1st     0x000030CE    *   
-PIC16F18426             Midrange/1.8V Min MSB1st     0x000030D2    *   
-PIC16F18425             Midrange/1.8V Min MSB1st     0x000030CC    *   
-PIC16F18424             Midrange/1.8V Min MSB1st     0x000030CA    *   
+PIC16F18456             Midrange/1.8V Min MSB1st     0x000030D9    *
+PIC16F18455             Midrange/1.8V Min MSB1st     0x000030D7    *
+PIC16F18446             Midrange/1.8V Min MSB1st     0x000030D4    *
+PIC16F18445             Midrange/1.8V Min MSB1st     0x000030D0    *
+PIC16F18444             Midrange/1.8V Min MSB1st     0x000030CE    *
+PIC16F18426             Midrange/1.8V Min MSB1st     0x000030D2    *
+PIC16F18425             Midrange/1.8V Min MSB1st     0x000030CC    *
+PIC16F18424             Midrange/1.8V Min MSB1st     0x000030CA    *
 PIC16F18346             Midrange/1.8v MinII          0x000030A5    *    Programmer to Go Supported
 PIC16F18345             Midrange/1.8v MinII          0x0000303F    *    Programmer to Go Supported
 PIC16F18344             Midrange/1.8v MinII          0x0000303B    *    Programmer to Go Supported
@@ -729,19 +729,19 @@ PIC16F1579              Midrange/1.8v MinII          0x00003003    *    Programm
 PIC16F1578              Midrange/1.8v MinII          0x00003002    *    Programmer to Go Supported
 PIC16F1575              Midrange/1.8v MinII          0x00003001    *    Programmer to Go Supported
 PIC16F1574              Midrange/1.8v MinII          0x00003000    *    Programmer to Go Supported
-PIC16F15386             Midrange/1.8V Min MSB1st     0x000030B8    *   
-PIC16F15385             Midrange/1.8V Min MSB1st     0x000030B6    *   
-PIC16F15376             Midrange/1.8V Min MSB1st     0x000030B4    *   
-PIC16F15375             Midrange/1.8V Min MSB1st     0x000030B2    *   
-PIC16F15356             Midrange/1.8V Min MSB1st     0x000030B0    *   
-PIC16F15355             Midrange/1.8V Min MSB1st     0x000030AE    *   
-PIC16F15354             Midrange/1.8V Min MSB1st     0x000030AC    *   
-PIC16F15345             Midrange/1.8V Min MSB1st     0x000030C8    *   
-PIC16F15344             Midrange/1.8V Min MSB1st     0x000030C4    *   
-PIC16F15325             Midrange/1.8V Min MSB1st     0x000030C6    *   
-PIC16F15324             Midrange/1.8V Min MSB1st     0x000030C2    *   
-PIC16F15323             Midrange/1.8V Min MSB1st     0x000030C0    *   
-PIC16F15313             Midrange/1.8V Min MSB1st     0x000030BE    *   
+PIC16F15386             Midrange/1.8V Min MSB1st     0x000030B8    *
+PIC16F15385             Midrange/1.8V Min MSB1st     0x000030B6    *
+PIC16F15376             Midrange/1.8V Min MSB1st     0x000030B4    *
+PIC16F15375             Midrange/1.8V Min MSB1st     0x000030B2    *
+PIC16F15356             Midrange/1.8V Min MSB1st     0x000030B0    *
+PIC16F15355             Midrange/1.8V Min MSB1st     0x000030AE    *
+PIC16F15354             Midrange/1.8V Min MSB1st     0x000030AC    *
+PIC16F15345             Midrange/1.8V Min MSB1st     0x000030C8    *
+PIC16F15344             Midrange/1.8V Min MSB1st     0x000030C4    *
+PIC16F15325             Midrange/1.8V Min MSB1st     0x000030C6    *
+PIC16F15324             Midrange/1.8V Min MSB1st     0x000030C2    *
+PIC16F15323             Midrange/1.8V Min MSB1st     0x000030C0    *
+PIC16F15313             Midrange/1.8V Min MSB1st     0x000030BE    *
 PIC16F1527              Midrange/1.8V Min            0x000015A0    *    Programmer to Go Supported
 PIC16F1526              Midrange/1.8V Min            0x00001580    *    Programmer to Go Supported
 PIC16F1519              Midrange/1.8V Min            0x000016E0    *    Programmer to Go Supported
@@ -797,25 +797,25 @@ PIC10F206               Baseline                     0x0000FFFF    *    Programm
 PIC10F204               Baseline                     0x0000FFFF    *    Programmer to Go Supported
 PIC10F202               Baseline                     0x0000FFFF    *    Programmer to Go Supported
 PIC10F200               Baseline                     0x0000FFFF    *    Programmer to Go Supported
-MCP25055                Others/MCP250xx              0xFFFFFFFF    *   
-MCP25050                Others/MCP250xx              0xFFFFFFFF    *   
-MCP25025                Others/MCP250xx              0xFFFFFFFF    *   
-MCP25020                Others/MCP250xx              0xFFFFFFFF    *   
-M25P80                  EEPROMS/25LC                 0xFFFFFFFF    *   
-M25P64                  EEPROMS/25LC                 0xFFFFFFFF    *   
-M25P40                  EEPROMS/25LC                 0xFFFFFFFF    *   
-M25P32                  EEPROMS/25LC                 0xFFFFFFFF    *   
-M25P20                  EEPROMS/25LC                 0xFFFFFFFF    *   
-M25P16                  EEPROMS/25LC                 0xFFFFFFFF    *   
-M25P10                  EEPROMS/25LC                 0xFFFFFFFF    *   
-HCS362                  Others/KEELOQ?? HCS          0xFFFFFFFF        
-HCS361                  Others/KEELOQ?? HCS          0xFFFFFF36        
-HCS360                  Others/KEELOQ?? HCS          0xFFFFFF36        
-HCS320                  Others/KEELOQ?? HCS          0xFFFFFFFF        
-HCS301                  Others/KEELOQ?? HCS          0xFFFFFFFF        
-HCS300                  Others/KEELOQ?? HCS          0xFFFFFFFF        
-HCS201                  Others/KEELOQ?? HCS          0xFFFFFFFF        
-HCS200                  Others/KEELOQ?? HCS          0xFFFFFFFF        
+MCP25055                Others/MCP250xx              0xFFFFFFFF    *
+MCP25050                Others/MCP250xx              0xFFFFFFFF    *
+MCP25025                Others/MCP250xx              0xFFFFFFFF    *
+MCP25020                Others/MCP250xx              0xFFFFFFFF    *
+M25P80                  EEPROMS/25LC                 0xFFFFFFFF    *
+M25P64                  EEPROMS/25LC                 0xFFFFFFFF    *
+M25P40                  EEPROMS/25LC                 0xFFFFFFFF    *
+M25P32                  EEPROMS/25LC                 0xFFFFFFFF    *
+M25P20                  EEPROMS/25LC                 0xFFFFFFFF    *
+M25P16                  EEPROMS/25LC                 0xFFFFFFFF    *
+M25P10                  EEPROMS/25LC                 0xFFFFFFFF    *
+HCS362                  Others/KEELOQ?? HCS          0xFFFFFFFF
+HCS361                  Others/KEELOQ?? HCS          0xFFFFFF36
+HCS360                  Others/KEELOQ?? HCS          0xFFFFFF36
+HCS320                  Others/KEELOQ?? HCS          0xFFFFFFFF
+HCS301                  Others/KEELOQ?? HCS          0xFFFFFFFF
+HCS300                  Others/KEELOQ?? HCS          0xFFFFFFFF
+HCS201                  Others/KEELOQ?? HCS          0xFFFFFFFF
+HCS200                  Others/KEELOQ?? HCS          0xFFFFFFFF
 dsPIC33FJ64MC804        Others/dsPIC33               0x0000061B    *    Programmer to Go Supported
 dsPIC33FJ64MC802        Others/dsPIC33               0x00000619    *    Programmer to Go Supported
 dsPIC33FJ64MC710        Others/dsPIC33               0x00000097    *    Programmer to Go Supported
@@ -909,59 +909,59 @@ dsPIC30F2012            Others/dsPIC30               0x00000241    *    Programm
 dsPIC30F2011            Others/dsPIC30               0x00000240    *    Programmer to Go Supported
 dsPIC30F2010            Others/dsPIC30               0x00000040    *    Programmer to Go Supported
 dsPIC30F1010            Others/dsPIC30 SMPS          0x00000404    *    Programmer to Go Supported
-93LC86B (C x16)         EEPROMS/93LCxB,C             0xFFFFFFFF    *   
-93LC86A (C x8)          EEPROMS/93LCxA,C             0xFFFFFFFF    *   
-93LC76B (C x16)         EEPROMS/93LCxB,C             0xFFFFFFFF    *   
-93LC76A (C x8)          EEPROMS/93LCxA,C             0xFFFFFFFF    *   
-93LC66B (C x16)         EEPROMS/93LCxB,C             0xFFFFFFFF    *   
-93LC66A (C x8)          EEPROMS/93LCxA,C             0xFFFFFFFF    *   
-93LC56B (C x16)         EEPROMS/93LCxB,C             0xFFFFFFFF    *   
-93LC56A (C x8)          EEPROMS/93LCxA,C             0xFFFFFFFF    *   
-93LC46B (C x16)         EEPROMS/93LCxB,C             0xFFFFFFFF    *   
-93LC46A (C x8)          EEPROMS/93LCxA,C             0xFFFFFFFF    *   
-25LC640A                EEPROMS/25LC                 0xFFFFFFFF    *   
-25LC512                 EEPROMS/25LC                 0xFFFFFFFF    *   
-25LC320A                EEPROMS/25LC                 0xFFFFFFFF    *   
-25LC256                 EEPROMS/25LC                 0xFFFFFFFF    *   
-25LC160B                EEPROMS/25LC                 0xFFFFFFFF    *   
-25LC160A                EEPROMS/25LC                 0xFFFFFFFF    *   
-25LC128                 EEPROMS/25LC                 0xFFFFFFFF    *   
-25LC1024                EEPROMS/25LC                 0xFFFFFFFF    *   
-25LC080B                EEPROMS/25LC                 0xFFFFFFFF    *   
-25LC080A                EEPROMS/25LC                 0xFFFFFFFF    *   
-25LC040A                EEPROMS/25LC                 0xFFFFFFFF    *   
-25LC020A                EEPROMS/25LC                 0xFFFFFFFF    *   
-25LC010A                EEPROMS/25LC                 0xFFFFFFFF    *   
-24xx64                  EEPROMS/24xx                 0xFFFFFFFF    *   
-24xx512                 EEPROMS/24xx                 0xFFFFFFFF    *   
-24xx32                  EEPROMS/24xx                 0xFFFFFFFF    *   
-24xx256                 EEPROMS/24xx                 0xFFFFFFFF    *   
-24xx16                  EEPROMS/24xx                 0xFFFFFFFF    *   
-24xx128                 EEPROMS/24xx                 0xFFFFFFFF    *   
-24xx1026                EEPROMS/24xx                 0xFFFFFFFF    *   
-24xx1025                EEPROMS/24xx                 0xFFFFFFFF    *   
-24xx08                  EEPROMS/24xx                 0xFFFFFFFF    *   
-24xx04                  EEPROMS/24xx                 0xFFFFFFFF    *   
-24xx02                  EEPROMS/24xx                 0xFFFFFFFF    *   
-24xx01                  EEPROMS/24xx                 0xFFFFFFFF    *   
-24xx00                  EEPROMS/24xx                 0xFFFFFFFF    *   
-24LC32A                 EEPROMS/24xx                 0xFFFFFFFF    *   
-24LC16B                 EEPROMS/24xx                 0xFFFFFFFF    *   
-24LC08B                 EEPROMS/24xx                 0xFFFFFFFF    *   
-24LC04B                 EEPROMS/24xx                 0xFFFFFFFF    *   
-24LC02B                 EEPROMS/24xx                 0xFFFFFFFF    *   
-24LC01B                 EEPROMS/24xx                 0xFFFFFFFF    *   
-11LC160                 EEPROMS/11LC                 0xFFFFFFFF    *   
-11LC080                 EEPROMS/11LC                 0xFFFFFFFF    *   
-11LC040                 EEPROMS/11LC                 0xFFFFFFFF    *   
-11LC020                 EEPROMS/11LC                 0xFFFFFFFF    *   
-11LC010                 EEPROMS/11LC                 0xFFFFFFFF    *   
-+FL127S                 EEPROMS/25LC                 0xFFFFFFFF    *   
+93LC86B (C x16)         EEPROMS/93LCxB,C             0xFFFFFFFF    *
+93LC86A (C x8)          EEPROMS/93LCxA,C             0xFFFFFFFF    *
+93LC76B (C x16)         EEPROMS/93LCxB,C             0xFFFFFFFF    *
+93LC76A (C x8)          EEPROMS/93LCxA,C             0xFFFFFFFF    *
+93LC66B (C x16)         EEPROMS/93LCxB,C             0xFFFFFFFF    *
+93LC66A (C x8)          EEPROMS/93LCxA,C             0xFFFFFFFF    *
+93LC56B (C x16)         EEPROMS/93LCxB,C             0xFFFFFFFF    *
+93LC56A (C x8)          EEPROMS/93LCxA,C             0xFFFFFFFF    *
+93LC46B (C x16)         EEPROMS/93LCxB,C             0xFFFFFFFF    *
+93LC46A (C x8)          EEPROMS/93LCxA,C             0xFFFFFFFF    *
+25LC640A                EEPROMS/25LC                 0xFFFFFFFF    *
+25LC512                 EEPROMS/25LC                 0xFFFFFFFF    *
+25LC320A                EEPROMS/25LC                 0xFFFFFFFF    *
+25LC256                 EEPROMS/25LC                 0xFFFFFFFF    *
+25LC160B                EEPROMS/25LC                 0xFFFFFFFF    *
+25LC160A                EEPROMS/25LC                 0xFFFFFFFF    *
+25LC128                 EEPROMS/25LC                 0xFFFFFFFF    *
+25LC1024                EEPROMS/25LC                 0xFFFFFFFF    *
+25LC080B                EEPROMS/25LC                 0xFFFFFFFF    *
+25LC080A                EEPROMS/25LC                 0xFFFFFFFF    *
+25LC040A                EEPROMS/25LC                 0xFFFFFFFF    *
+25LC020A                EEPROMS/25LC                 0xFFFFFFFF    *
+25LC010A                EEPROMS/25LC                 0xFFFFFFFF    *
+24xx64                  EEPROMS/24xx                 0xFFFFFFFF    *
+24xx512                 EEPROMS/24xx                 0xFFFFFFFF    *
+24xx32                  EEPROMS/24xx                 0xFFFFFFFF    *
+24xx256                 EEPROMS/24xx                 0xFFFFFFFF    *
+24xx16                  EEPROMS/24xx                 0xFFFFFFFF    *
+24xx128                 EEPROMS/24xx                 0xFFFFFFFF    *
+24xx1026                EEPROMS/24xx                 0xFFFFFFFF    *
+24xx1025                EEPROMS/24xx                 0xFFFFFFFF    *
+24xx08                  EEPROMS/24xx                 0xFFFFFFFF    *
+24xx04                  EEPROMS/24xx                 0xFFFFFFFF    *
+24xx02                  EEPROMS/24xx                 0xFFFFFFFF    *
+24xx01                  EEPROMS/24xx                 0xFFFFFFFF    *
+24xx00                  EEPROMS/24xx                 0xFFFFFFFF    *
+24LC32A                 EEPROMS/24xx                 0xFFFFFFFF    *
+24LC16B                 EEPROMS/24xx                 0xFFFFFFFF    *
+24LC08B                 EEPROMS/24xx                 0xFFFFFFFF    *
+24LC04B                 EEPROMS/24xx                 0xFFFFFFFF    *
+24LC02B                 EEPROMS/24xx                 0xFFFFFFFF    *
+24LC01B                 EEPROMS/24xx                 0xFFFFFFFF    *
+11LC160                 EEPROMS/11LC                 0xFFFFFFFF    *
+11LC080                 EEPROMS/11LC                 0xFFFFFFFF    *
+11LC040                 EEPROMS/11LC                 0xFFFFFFFF    *
+11LC020                 EEPROMS/11LC                 0xFFFFFFFF    *
+11LC010                 EEPROMS/11LC                 0xFFFFFFFF    *
++FL127S                 EEPROMS/25LC                 0xFFFFFFFF    *
 ````
 
 
 
 
-* Supported by PKCMD, PKAutoWatch, PKGangProgrammer and PKCMD-LX. 
+* Supported by PKCMD, PKAutoWatch, PKGangProgrammer and PKCMD-LX.
 
-All devices are supported by PICKit2Plus and PICKit3Plus applications. 
+All devices are supported by PICKit2Plus and PICKit3Plus applications.

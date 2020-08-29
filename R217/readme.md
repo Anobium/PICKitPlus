@@ -1,6 +1,6 @@
-Status - issues with config verification process.  Awaiting new parts from Microchip @ 18/8/2020
-
                 Rev217
+
+                Required 4.61.0.57 GUIs to work correctly
 
                 Changes for PIC24FXXKMXXX/KLXXX per DS30000625E table 4-1
                 The following parts only based on the existing PIC24F08KL200 which was inherited.

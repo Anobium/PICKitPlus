@@ -36,6 +36,10 @@ To program config & program regions retaining EEprom using external power.
 {empty} +
 {empty} +
 
+*Commands*
+{empty} +
+{empty} +
+
 
 [cols="<20%,20%,20%,40%", options=header,width=100%,]
 |===

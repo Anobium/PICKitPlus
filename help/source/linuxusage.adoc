@@ -3,18 +3,12 @@
 *Introduction*
 
 
-An explanation of some basic write operations using the PICkit programmer as the power source, and, using an external power source.
+An quick explanation of some basic operations using the software.  We assume a PICkit programmer and using the programmmer as the power source.
 
 A log file and an error log file is created every time the software is used.  These files can be examined to resolve errors.
 
 
-
-
-
-
-PICKitCommandline v4.xx
-
-Doc: Rev 20   Substitute %chipname% with your Device String, and substitute %Filename% for the source HEX filename.
+In the example substitute %chipname% with your Device String, and substitute %Filename% for the source HEX filename.
 
 ----
     Program all memory regions and leave 5v on from the PICkit programmer.

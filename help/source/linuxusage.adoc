@@ -7,8 +7,8 @@ An explanation of the operations using the software.&#160;&#160;We assume a PICk
 {empty} +
 {empty} +
 In the examples below substitute %chipname% with your Device String, and substitute %Filename% for the source HEX filename.&#160;&#160;
-
-
+{empty} +
+{empty} +
 To program all memory regions and leave 5v on from the PICkit programmer.
 
 ----
@@ -39,6 +39,7 @@ To program config & program regions retaining EEprom using external power.
 
 [cols="<20%,20%,20%,40%", options=header,width=100%,]
 |===
+//This padding is needed to control the column width
 <|Command&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
 <|Parameter
 <|Explanation

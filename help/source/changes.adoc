@@ -1,0 +1,27 @@
+== Changes
+*Formal Release of <>*
+
+{empty} +
+[cols=^1,^1, options=header,width=60%]
+|===
+|*Reference*
+|*Time Stamp*
+
+|ASCIIDOCs rendered
+|{localdate} +
+{localtime}
+
+|Master ToC information
+|{docdate} +
+{doctime}
+
+|===
+
+{empty} +
+
+*Changes in this release*::
+
+
+
+.
+

@@ -1,0 +1,79 @@
+== Asciidoc cheatsheet for GitHub
+
+
+=== Introduction
+
+These are the pages and the toolchain used to generate the TinyMultiBootLoader Help system.
+
+
+=== GitHub limitations
+
+This cheatsheet contains small part of Asciidoc markup which works and
+looks fine on GitHub.&#160;&#160;There is also link:https://github.com/powerman/asciidoc-cheatsheet/blob/master/README.adoc[full cheatsheet], but
+for now its main use is to show bugs, design issues, GitHub limitations
+and other differences from http://powerman.name/doc/asciidoc[how Asciidoc
+cheatsheet should really looks like].
+
+=== Help
+
+The format is pre-determined.&#160;&#160;Meaning the layout and the style sheets are already mandated, please refer to existing Help pages as a reference.&#160;&#160;These notes are to enable the casual editor insights into some of the tricks when editing Asciidoc's.
+
+To add an example hard space, use the following:
+
+=== Cheat Sheet
+
+This is an example of how to show user code.  Four dashes, then code indented by two tabs, terminated by four dashes.
+
+.An example of showing  user code
+----
+    ----
+
+    GLCDCLS
+
+    ----
+----
+{empty} +
+
+
+This is how to added a hard space. Always add a hard speace at the end of each sentence in a paragraph.
+
+.An example hard space
+----
+&#160;&#160;
+----
+{empty} +
+To add a table, using the following:
+
+.An example table
+----
+[cols="3,4,4", options="header,autowidth"]
+|===
+|Constant
+|Purpose
+|Default
+
+|`String`
+|The width parameter of the String
+|Set automatically
+
+|`String2`
+|The height parameter of the String
+|Set automatically
+
+|`String3`
+|Specifies the String.
+|6
+|===
+
+----
+
+
+
+.An example empty line
+----
+{empty} +
+----
+
+
+
+++++

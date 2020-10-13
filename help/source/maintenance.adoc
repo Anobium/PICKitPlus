@@ -1,0 +1,18 @@
+== Maintenance
+
+*Introduction:*
+
+These insights are not distribution specific.
+
+*Solution Architecture:*
+These components are key for a complete solution:
+[start=1]
+ . installer
+
+ . ini files
+
+ . Help
+
+
+{empty} +
+{empty} +

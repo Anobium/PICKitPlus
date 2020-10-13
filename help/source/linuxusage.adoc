@@ -25,12 +25,13 @@ In the example substitute %chipname% with your Device String, and substitute %Fi
 
 ----
 
-[cols="20%,25%,25%,30%", options=header,width=100%,]
+[cols="30%,20%,20%,30%", options=header,width=100%,]
 |===
-<|Command
+<|Command&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
 <|Parameter
 <|Explanation
 <|Usage
+
 <|-3
 <|No parameter
 <|-3

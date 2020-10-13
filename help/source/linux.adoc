@@ -1,5 +1,7 @@
 == PICKitPlus for Linux
 
-*What is it?*
+PKCMD-LX is a Linux commandline program for reading and writing Microchip's PIC brand of microcontrollers, using the Pickit-2 or Pickit-3 hardware tools.
+
+It is the Linux version of PKCMD (a Windows program).
 
 

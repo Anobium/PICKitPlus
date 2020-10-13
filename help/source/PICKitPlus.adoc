@@ -36,6 +36,7 @@ include::linux.adoc[]
 include::linuxinstall.adoc[]
 
 include::linuxusage.adoc[]
+
 :leveloffset: -1
 
 

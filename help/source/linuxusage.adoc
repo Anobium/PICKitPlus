@@ -612,7 +612,7 @@ An example is the 18F(L)xxK80 where a value of 60 is recommended.
 //<|Blank Check Failed
 {empty} +
 {empty} +
-*Configuration
+*Configuration*
 
 There is an ini file that can be adapted.&#160;&#160;The file is called PICKitCommandline.ini&#160;&#160;The structure is as follows:
 
@@ -630,7 +630,7 @@ The location and the filename for each entry in the can be changed to meet speci
 
 When using this software a parameter is either a standalone flag or a key/value pair.
 
-And for `-m `and `-g` there is no default. You must specify memory region.
+And for `-m` and `-g` there is no default. You must specify memory region.
 
 `-w`  with `-zv` will default to the standard operating voltage for the device.
 

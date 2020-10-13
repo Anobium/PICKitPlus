@@ -25,7 +25,11 @@ In the example substitute %chipname% with your Device String, and substitute %Fi
 
 ----
 
-[cols="30%,20%,20%,30%", options=header,width=100%,]
+{empty} +
+{empty} +
+
+
+[cols="<30%,20%,20%,30%", options=header,width=100%,]
 |===
 <|Command&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
 <|Parameter

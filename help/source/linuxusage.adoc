@@ -27,26 +27,25 @@ In the example substitute %chipname% with your Device String, and substitute %Fi
 
 [cols="20%,25%,25%,30%", options=header,width=100%,]
 |===
-^,<|Command
-^,<|Parameter
-^,<|Explanation
-^,<|Usage
-
-^<|-3
-^<|No parameter
-^<|-3
+<|Command
+<|Parameter
+<|Explanation
+<|Usage
+<|-3
+<|No parameter
+<|-3
 
 Selects a PICKit 3 programmer only.
 PICKitCommandLine can be forced to use a PICKit 3 programmer.
 This is useful when you have more than one programmer attached.
 
-^<|Usage:
+<|Usage:
 -3               Will select a PICKit 3 only for programming operations.
 
 
-^<|-2
-^<|No parameter
-^<|-2                  Selects a PICKit 2 programmer only.
+<|-2
+<|No parameter
+<|-2                  Selects a PICKit 2 programmer only.
 
 PICKitCommandLine can be forced to use a PICKit 2 programmer.
 This is useful when you have more than one programmer attached.
@@ -57,23 +56,23 @@ This is useful when you have more than one programmer attached.
 
 Will select a PICKit 2 only for programming operations.
 
-^<|--devicelist
+<|--devicelist
 
-^<|Optional pipe command
+<|Optional pipe command
 
-^<|--devicelist List all supported devices.
+<|--devicelist List all supported devices.
 
 This is an exclusive command.  Other command line parameters will be ignored.
 
-^<|Usage:
+<|Usage:
 
 --devicelist                 Show the revision of the devices database and a complete list of the supported devices.
 
 --devicelist \| more        Will show the information in pages using the more pipe.
 
-^<|--devicelist-csv
-^<|Optional pipe command
-^<|--devicelist-csv      List all supported devices in CSV format.
+<|--devicelist-csv
+<|Optional pipe command
+<|--devicelist-csv      List all supported devices in CSV format.
 
 This is an exclusive command.  Other command line parameters will be ignored.
 |Usage:
@@ -81,9 +80,9 @@ This is an exclusive command.  Other command line parameters will be ignored.
 --devicelist-csv             Show the revision of the devices database and a complete list of the supported devices using a comma delimited format.
 
 
-^<|--firmware
-^<|No parameter
-^<|--firmware            Flash firmware to a PICKIT programmer.
+<|--firmware
+<|No parameter
+<|--firmware            Flash firmware to a PICKIT programmer.
 
 This an exclusive command.  Other command line parameters will be ignored.
 
@@ -96,7 +95,7 @@ For PICKIT2 Programmer  --firmware
 
 For PICKIT3 Programmer  --firmware
 
-^<|-a Requires a parameter  -a                     Adjust the standard operating voltage.
+<|-a Requires a parameter  -a                     Adjust the standard operating voltage.
 
 Can be used when the programmer supports changing the operating voltage.   Not all clone PICKIT programmers support changing the operating voltages.
 

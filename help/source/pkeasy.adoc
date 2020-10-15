@@ -1,1 +1,71 @@
 === PKEasy Usage
+
+
+
+*Introduction*
+
+The PKEasy Programmer application allows you to program all supported devices listed [here].&#160;&#160;
+The programming interface appears as shown below.&#160;&#160;
+Its controls are listed in the following sections.&#160;&#160;For more information on how to install and use the PKEasy application,
+see PKEasy Getting Started.
+
+{empty} +
+
+image::images\10PKEasy_initialscreen.png[graphic,width=480,height=360,align="center"]
+
+{empty} +
+{empty} +
+*Menu Bar*
+
+The menu bar selects various functions of  PKEasy application.&#160;&#160;
+A summary of the functions are:
+
+- _Settings_&#160;&#160;- Select to enable Microchip Express boards and set the event sounds
+- _About_&#160;&#160;&#160;&#160;&#160;&#160;- Show the About screen.
+- _Exit_&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- Exit the PKEasy application.
+
+The menu bar is extended with icons.
+These are icons are shown below:
+
+image::images\15PKEasy_ICONS.png[graphic,50%,align="center"]
+
+A summary of icons are:
+
+- _Country Flag_&#160;&#160;&#160;-Select locale language
+- _Voltage_&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-Control voltage state and voltage level
+- _Power On_&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-Control voltage On
+- _Power Off_&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-Control voltage Off
+- _Sound On/OFf Toggle_&#160;&#160;&#160;&#160;&#160;&#160;-Control sound On/Off
+- _Always On Top Toggle_&#160;&#160;&#160;&#160;-Control PKEasy is on top all the time
+
+
+{empty} +
+{empty} +
+*Essential use of PKEasy*
+
+Using PKEasy is very simple.  The following graphic shows the key seven step process.
+
+1. Select a programmer to use.&#160;&#160;This could be a PICkit2, PICkit3 or a Microchip Programmer-on-boards
+2. Select a source HEX file
+3. Select a target part/microcontroller PIC
+{empty} +
+    3a.  You can select manually
+{empty} +
+    3b.  You can select from your recently used part/microcontroller PIC.
+{empty} +
+
+4. You can use the 'Magic Wand'.&#160;&#160;This will auto-detect the  part/microcontroller PIC. &#160;&#160;Some families which cannot be auto-detected (such as Baseline) and you will have to select manually.
+
+5. Select whether you need to power from your selected programmer, or, not.
+
+6. Write to the part/microcontroller PIC.
+
+7. A completed write operation.
+
+
+
+image::images\PKEasyUsing.gif[graphic,400%,align="center"]
+
+{empty} +
+{empty} +
+*Additional PKEasy Controls*

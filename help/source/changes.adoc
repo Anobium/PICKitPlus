@@ -1,6 +1,32 @@
 == Changes
-*Formal Release of <>*
+*October 2020 Release*
 
+
+{empty} +
+
+*Changes in this release*::
+
+Initial release of the web, xml, HTML, HTML5 and PDF Help for PICKitPlus
+
+
+
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+{empty} +
 {empty} +
 [cols=^1,^1, options=header,width=60%]
 |===
@@ -16,12 +42,3 @@
 {doctime}
 
 |===
-
-{empty} +
-
-*Changes in this release*::
-
-
-
-.
-

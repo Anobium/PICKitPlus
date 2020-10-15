@@ -1,1 +1,1 @@
-=== PICkitPlus Graphical User Interface Software
+=== PICKitPlus GUI

@@ -1,7 +1,105 @@
-== PICKitPlus for Linux
+== PKCMD-LX Introduction
 
-PKCMD-LX is a Linux commandline program for reading and writing Microchip's PIC brand of microcontrollers, using the Pickit-2 or Pickit-3 hardware tools.
+The PICKitPlus for Linux commandline program is called PKCMD-LX.
 
-It is the Linux version of PKCMD (a Windows program).
+The program can be used for reading and writing Microchip's PIC range of microcontrollers, using the Pickit 2 or Pickit 3 device programmers.
+
+*Program Definition*
+
+PKCMD-LX is a 32-bit or 64-bit command-line interface to the PICkit 2 or PICkit 3 device programmer.
+
+This interface is designed for programming devices in an evironment where batc/script files or custom controlling software is desired.
+
+The PKCMD-LX executable requires the "PKPlusDeviceFile.dat" file for execution.   This file should be kept in the same directory as the executable.
+
+{empty} +
+
+NOTE: To call the PKCMD-LX executable from other directories and still allow it to find the device file the device file may be explicitly specified on the command line using option -b (-B).
+
+This  is targeted to users of the command-line interface.  Refer to the "PICkit 2 User's Guide" or "PICkit 3 User's Guide" for more information about the specifics of the PICkit 2/3 device Programmer.
 
 
+*Device Support List*
+
+Device support is dependent on the device file version installed
+with the PKCMD-LX.  See http://www.PICKitPlus.co.uk/Typesetter/index.php/Supported-Parts[PICKitPlus web site] for the latest list of devices supported.
+
+When selecting a part using the "P" option, see <<_pkcmd_lx_usage, PKCMD-LX Usage>>, you can use the full name or short name.
+
+{empty} +
+
+NOTE: `-P 16f690` is the same as `-P PIC16F690`
+
+{empty} +
+{empty} +
+
+
+*Supported Linux Distributions*
+
+Distributions known to have a compatible version of libc include:
+
+- Arch 2011.08.19
+- CentOS 7.8.2003 (released in 2020)
+- Debian 7 (Wheezy)
+- Fedora 15 (Lovelock)
+- Gentoo 11.2
+- Mint 11 (Katya)
+- openSUSE 12.1
+- Slackware 13.37
+- Ubuntu 11.04 (Natty)
+
+
+Distribution that do not use libc (such as Abyss, Alpine, Sabotage, Vanilla and Void) are not compatible.
+
+{empty} +
+{empty} +
+
+*Operating System Support List (Validated)*
+
+PKCMD-LX has been validated on 32-bit and 64-bit Debian-based Linuxes, but should work on all flavours, within specified limits, as follows:
+
+1. Requires libc v2.13 or above. This is linked to the distribution, and is typicali  out of your control. If your libc version is too low, often your only recourse is to install a newer distro.
+2. Requires root (or sudo), at least until it is fully installed and configured.
+3. Requires fuse (i.e. fusermount), if you want to run PKCMD-LX without root privileges.
+4. Expects libfuse v2.9.0 or greater, although older versions may work. For example, v2.8.5 prints warning messages but does seem to function.
+5. If you have a limited or evalulation license, you will need internet access to use the program.
+
+{empty} +
+{empty} +
+
+*Installation*
+
+Installation is very simple.
+
+Ensure you download the RAR from the PICKitPlus distribution server.
+Unpack the RAR file.
+Copy the AppImage for you PC architecture with the DAT file to any folder.
+Execute the AppImage for parameters see PKCMD-LX command line parameters, see <<_pkcmd_lx_usage, PKCMD-LX Usage>>
+but, to simple confirm operations, try `-w -p<%yourpart%> -e` this will find PIC and erase the PIC.
+
+{empty} +
+
+NOTE: Must be root.&#160;&#160;You can set up non-root access by running the program as root with the `--configure-no-root <your-username>` instruction.&#160;&#160;You will need to reboot afterwards following this command.&#160;&#160;
+
+{empty} +
+{empty} +
+
+*AppImage*
+
+PKCMD-LX is distributed as an AppImage.&#160;&#160;
+Using an AppImage enables the development team to provide native binaries for Linux users just the same way we do for other operating systems.&#160;&#160;
+An AppImage enables the development team to package the PKCMD-LX application for common Linux based operating system, e.g., Ubuntu, Debian, openSUSE, RHEL, CentOS, Fedora etc.&#160;&#160;
+
+The PICKitPlus AppImage comes with all dependencies that cannot be assumed to be part of each target system in a recent enough version and will run on most Linux distributions without further modifications.&#160;&#160;
+{empty} +
+
+An important advantage is that AppImage is designed from ground to run without super user permissions (you will need root permission to install).&#160;&#160;
+Almost all major distributions are compatible with AppImages, without requiring the user to make modifications to the base system.&#160;&#160;
+AppImages ship with their own runtime, and do not require external resources.&#160;&#160;
+You can simply use the AppImage on a USB disk and use it normally, on any machine.&#160;&#160;
+{empty} +
+{empty} +
+To summurise:&#160;&#160;AppImages provide a easy and unified user experience that is simple to install and use.
+
+{empty} +
+{empty} +

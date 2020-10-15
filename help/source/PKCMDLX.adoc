@@ -1,5 +1,5 @@
 = PICKitPlus Help
-The PICKitPlus @ 2020
+PICKitPlus Development Team @ 2020
 
 
 
@@ -13,23 +13,7 @@ include::introducingPICKitPlus.adoc[]
 ifdef::backend-pdf[<<<]
 include::changes.adoc[]
 
-
-
-
-include::windows.adoc[]
-
-include::windowsinstall.adoc[]
-
-include::pkgui.adoc[]
-
-include::pkcmd.adoc[]
-
-include::pkaw.adoc[]
-
-include::pkeasy.adoc[]
-
-
-
+ifdef::backend-pdf[<<<]
 include::linuxintro.adoc[]
 
 :leveloffset: +1
@@ -39,6 +23,7 @@ include::linuxusage.adoc[]
 
 :leveloffset: -1
 
+ifdef::backend-pdf[<<<]
 This is the maintenance section of the Help file. Please refer the sub-sections for details using the contents/folder view.
 
 include::maintenance.adoc[]

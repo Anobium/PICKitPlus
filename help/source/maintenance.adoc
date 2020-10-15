@@ -7,12 +7,50 @@ These insights are not distribution specific.
 *Solution Architecture:*
 These components are key for a complete solution:
 [start=1]
- . installer
+ . RAR file
+
+ . AppImage
+
+ . PKPlusDeviceFile.dat file
 
  . ini files
 
- . Help
+{empty} +
+{empty} +
+_RAR file_
+[Stuart add some words about the contents and that this is they should just unpack every time they get an update)
 
 
 {empty} +
 {empty} +
+_AppImage_
+[Stuart add some words about selecting the correct image)
+
+{empty} +
+{empty} +
+_PKPlusDeviceFile.dat file_
+[Stuart add some words about what to do if they want to update just this)
+
+
+{empty} +
+{empty} +
+_ini Files_
+[Stuart add some words about the ini files ... if any... )
+
+
+
+
+{empty} +
+{empty} +
+*Software Updates*
+
+We provide one year software support/software maintenance from the date of purchase, this support/software maintenance can be extended each year.&#160;&#160;
+
+You will receive an email with information to update the software via your user specific download URL.&#160;&#160;
+
+
+*PKPLusDeviceFile Updates*
+
+We also provide updates to the PKPlusDeviceFile.dat file.&#160;&#160;
+
+You will receive an email with information to update the software via your user specific download URL.&#160;&#160;

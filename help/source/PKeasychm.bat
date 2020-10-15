@@ -1,0 +1,1 @@
+makehelp PICKitEasy chm

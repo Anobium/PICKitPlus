@@ -11,7 +11,7 @@ see PKEasy Getting Started.
 
 {empty} +
 
-image::images\10PKEasy_initialscreen.png[graphic,75%,align="center"]
+image::images\10PKEasy_initialscreen.png[graphic,50%,align="center"]
 
 {empty} +
 {empty} +
@@ -27,7 +27,7 @@ A summary of the functions are:
 The menu bar is extended with icons.
 These are icons are shown below:
 
-image::images\15PKEasy_ICONS.png[graphic,50%,align="center"]
+image::images\15PKEasy_ICONS.png[graphic,40%,align="center"]
 
 A summary of icons are:
 

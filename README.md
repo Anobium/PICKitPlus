@@ -1,6 +1,6 @@
 Using data file "PKPlusDeviceFile.dat" which is a version 2.63.217 file.
 
-See the R216 folder for the details of the R216 changes.
+See the R217 folder for the details of the R217 changes.
 
 Extracted using PICkitCommandline v4.24.13781.7419
 

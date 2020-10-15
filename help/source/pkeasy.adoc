@@ -68,4 +68,10 @@ image::images\PKEasyUsing.gif[graphic,400%,align="center"]
 
 {empty} +
 {empty} +
+*Log Window*
+
+//add words
+{empty} +
+{empty} +
 *Additional PKEasy Controls*
+//add words

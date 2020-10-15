@@ -11,7 +11,7 @@ see PKEasy Getting Started.
 
 {empty} +
 
-image::images\10PKEasy_initialscreen.png[graphic,width=480,height=360,align="center"]
+image::images\10PKEasy_initialscreen.png[graphic,75%,align="center"]
 
 {empty} +
 {empty} +

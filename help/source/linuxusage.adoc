@@ -3,34 +3,34 @@
 *Introduction*
 
 
-This is the operations to use the executable.&#160;&#160;We assume a PICkit programmer and you are using the programmmer as the power source.&#160;&#160;
+These are usage instructions.&#160;&#160;We assume a PICkit programmer and you are using the programmmer as the power source.&#160;&#160;
 {empty} +
 {empty} +
-In the examples below substitute %chipname% with your Device String, and substitute %Filename% for the source HEX filename.&#160;&#160;
+In the examples below substitute %chipname% with the name of your target chip, and substitute %Filename% with the path and filename of your hex file.&#160;&#160;
 {empty} +
 {empty} +
-To program all memory regions and leave 5v on from the PICkit programmer.
+To program all memory regions (except userids) and leave 5v on from the PICkit programmer:
 
 ----
-     -w -pPIC%ChipModel%   -f%FileName% -mpec -zv -a5
+     -w -p%ChipModel% -f%FileName% -mpec -zv -a5
 ----
 
-To program all memory regions and leave 3.3v on from the PICkit programmer.
+To program all memory regions at 3.3v and leave the power on afterward:
 
 ----
-     -w -pPIC%ChipModel%   -f%FileName% -mpec -zv -a3.3
+     -w -p%ChipModel%   -f%FileName% -mpec -zv -a3.3
 ----
 
-To program all memory regions using external power source.
+To program all memory regions using an external power source:
 
 ----
-     -pPIC%ChipModel%   -f%FileName% -mpec
+     -p%ChipModel% -f%FileName% -mpec
 ----
 
-To program config & program regions retaining EEprom using external power.
+To program config and program memories whilst retaining eeprom contents, using external power:
 
 ----
-     -pPIC%ChipModel%   -f%FileName% -mpc
+     -p%ChipModel% -f%FileName% -mpc
 ----
 
 {empty} +
@@ -53,7 +53,7 @@ To program config & program regions retaining EEprom using external power.
 <|No parameter
 <|-3&#160;&#160;&#160;&#160;Selects a PICKit 3 programmer only.
 
-The application can be forced to use a PICKit 3 programmer.
+The application can be forced to use a PICKit 3 programmer and ignore any PICKit 2 devices.
 This is useful when you have more than one programmer attached.
 
 <|Usage:
@@ -82,7 +82,7 @@ Will select a PICKit 2 only for programming operations.
 {empty} +
 <|--devicelist
 
-<|Optional pipe command
+<|
 
 <|--devicelist&#160;&#160;&#160;&#160;List all supported devices.
 
@@ -94,13 +94,15 @@ This is an exclusive command.  Other command line parameters will be ignored.
 `--devicelist`
 {empty} +
 {empty} +
-Will show the revision of the devices database and a complete list of the supported devices.
+Will show the revision of the devices database and a complete list of the supported devices in this database.
 
---devicelist \| more        Will show the information in pages using the more pipe.
+You may wish to pipe or redirect the output to a file. For example:
+
+--devicelist \| more        Will show the information in pages using the `more` command.
 {empty} +
 {empty} +
 <|--devicelist-csv
-<|Optional pipe command
+<|
 <|--devicelist-csv&#160;&#160;&#160;&#160;List all supported devices in CSV format.
 
 This is an exclusive command.  Other command line parameters will be ignored.
@@ -111,6 +113,8 @@ This is an exclusive command.  Other command line parameters will be ignored.
 {empty} +
 {empty} +
 Will show the revision of the devices database and a complete list of the supported devices using a comma delimited format.
+
+You may wish to pipe or redirect the output to a file.
 {empty} +
 {empty} +
 
@@ -140,18 +144,18 @@ Will show the revision of the devices database and a complete list of the suppor
 <|Requires a parameter
 <|-a&#160;&#160;&#160;&#160;Adjust the standard operating voltage.
 
-Can be used when the programmer supports changing the operating voltage.   Not all clone PICKIT programmers support changing the operating voltages.
+Can be used with programmers that support changing the operating voltage, such as official PICKit 2 and 3 tools. Not all clone PICKIT programmers support changing the operating voltages.
 
 Examples:
 -a5
 -a3.3
 -a2.8
 
-This switch sets the standard operating voltage upon exit.  Requires -zv to set ON. Omitting -zv will not set the voltage.
+If instructed to leave power on after programming (-zv), the voltage after programming will reflect this parameter.
 
-The -a requires -w to operate.  If -w is not specified then -a will not set the operating voltage.
+The -a parameter requires -w to operate. If -w is not specified then -a will not set the operating voltage.
 
-Also see, -k to remove programmer power.
+See also: -k to remove programmer power.
 
 <|Usage:
 {empty} +
@@ -159,36 +163,34 @@ Also see, -k to remove programmer power.
 Example 1.  Set to 3.3v
 {empty} +
 {empty} +
-`-w -pPIC12f675   -f12f675.hex  -u343c  -mpec  -a3.3 -zv`
+`-w   -pPIC12f675   -f12f675.hex  -u343c  -mpec  -a3.3 -zv`
 {empty} +
 {empty} +
 Example 2.  Set to 5.0v
 {empty} +
 {empty} +
-`-w -pPIC12f675   -f12f675.hex  -u343c  -mpec  -a4.5 -zv`
+`-w   -pPIC12f675   -f12f675.hex  -u343c  -mpec  -a5 -zv`
 {empty} +
 {empty} +
 Example 3.  Set to the default operating voltage.  -a is not explicitly stated as -w will set to the standard operating voltage.  This is shown for completeness.
 {empty} +
 {empty} +
-`-w -pPIC12f675   -f12f675.hex  -u343c  -mpec  -zv`
+`-w   -pPIC12f675   -f12f675.hex  -u343c  -mpec  -zv`
 {empty} +
 {empty} +
 
 *Fixed Voltage Case*
 {empty} +
 {empty} +
-Where a clone programmer with fixed voltage CANNOT change the operating voltage.&#160;&#160;
-You could use the PICKit Plus GUI to show fixed voltage constraint within the programmer by trying to change the operating voltage.
-&#160;&#160;the application cannot change the operating voltage if the PICKit Plus GUI cannot.
+Some clone programmers lack the ability to change the voltage. When using such a tool, -a will have no effect.
 
 <|-b
 <|Requires a filename as parameter
-<|-b&#160;&#160;&#160;&#160;The  filename of the PKPlusDeviceFile.dat file.
+<|-b&#160;&#160;&#160;&#160;The filename of the PKPlusDeviceFile.dat file.
 
-The is an optional switch.  The PKPlusDeviceFile.dat file is assumed to be in the same folder as the application.exe.
+This an optional switch. The PKPlusDeviceFile.dat file is assumed to be in the same folder as the AppImage, unless otherwise specified.
 
---devicefile is also supported for this switch.
+If present, --devicefile and --devicefile-csv will take this switch into account.
 
 <|Usage:
 {empty} +
@@ -202,7 +204,7 @@ If the .dat file in NOT in the same folder the complete path and filename must b
 |No parameter
 |-c&#160;&#160;Blank Check.
 
-Set the errorlevel to 0 if blank and any value other that zero is non-blank (16 will be returned).
+Set the errorlevel to 0 if blank and nonzero (usually 16) otherwise.
 
 &#160;&#160;
 |Usage:
@@ -217,11 +219,12 @@ Set the errorlevel to 0 if blank and any value other that zero is non-blank (16 
 <|-d  Requires a parameter
 |-d&#160;&#160;Delay on exit of the application.
 
-This switch will delay the exit of the application.  This enable you to review the output from the application.
+This switch will delay the exit of the application.  This allows you time to review the output from the application (for example if you are running it from a script or IDE which will close the output window immediately afterward).
 
-You can specify a time delay or wait for a key press.  The options are -dN or -dK. Where N is an integer value.
+You can specify a time delay or wait for a key press.  For a time delay, use -dN, where N is an integer value.  To wait for a keypress, use -dK.
 
-When using an IDE ensure the IDE supports -dK.  Using -dK with some IDEs that does not support user input during programming may cause the IDE lock waiting for a key press that cannot passed the application.
+Some IDEs do not play well with -dK, because they don't allow the user to interact with the spawned process using the keyboard. Using -dK with IDEs that do not support user input during programming may cause the IDE to lock up, waiting for a key press that can never arrive. Your mileage may vary.
+
 <|Usage:
 {empty} +
 {empty} +
@@ -231,15 +234,15 @@ When using an IDE ensure the IDE supports -dK.  Using -dK with some IDEs that do
 `-dK`&#160;&#160;Wait until key press
 {empty} +
 
-<|-e
+<|-e&#160;&#160;--erase
 <|No parameter required
 <|-e       Erase device
 
-All memory regions and EEProm (if available)  are set to the default value as specified on the programming guide.
+All memory regions and eeprom (if present) are reset to their default values as specified in the datasheet for that chip.
 
-This is a positional switch.  The switch is processed in the order as specified in the parameters.  If -e is placed AFTER a - m switch, the device is first programmed and then erased to permit multiple operation to be programmed like a READ,  ERASE, WRITE operations in a single command line.
+This is a positional argument.  Positional arguments are processed in the order they are given.  If -e is placed AFTER -m, the device will first be programmed and then subsequently erased.
 
---erase is also supported for this switch.
+The purpose of positional arguments is to permit multiple operations - erase, read, write etc - to be performed in a single invocation.
 
 <|Usage:
 {empty} +

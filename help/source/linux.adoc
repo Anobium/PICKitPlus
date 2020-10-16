@@ -8,31 +8,40 @@ The program can be used for reading and writing Microchip's PIC range of microco
 
 PKCMD-LX is a 32-bit or 64-bit command-line interface to the PICkit 2 or PICkit 3 device programmer.
 
-This interface is designed for programming devices in an evironment where batc/script files or custom controlling software is desired.
+This interface is designed for programming devices in an environment where batch/script files or custom-controlled software is desired.
 
-The PKCMD-LX executable requires the "PKPlusDeviceFile.dat" file for execution.   This file should be kept in the same directory as the executable.
-
+The PKCMD-LX executable requires the "PKPlusDeviceFile.dat" file for execution. This file should be kept in the same directory as the executable AppImage.
 {empty} +
 
 NOTE: To call the PKCMD-LX executable from other directories and still allow it to find the device file the device file may be explicitly specified on the command line using option -b (-B).
 
-This  is targeted to users of the command-line interface.  Refer to the "PICkit 2 User's Guide" or "PICkit 3 User's Guide" for more information about the specifics of the PICkit 2/3 device Programmer.
+PKCMD-LX is a commandline-only solution.  Refer to the "PICkit 2 User's Guide" or "PICkit 3 User's Guide" for more information about the specifics of the PICkit 2/3 device Programmer.
 
 
 *Device Support List*
 
 Device support is dependent on the device file version installed
-with the PKCMD-LX.  See http://www.PICKitPlus.co.uk/Typesetter/index.php/Supported-Parts[PICKitPlus web site] for the latest list of devices supported.
+with the PKCMD-LX.  See http://www.PICKitPlus.co.uk/Typesetter/index.php/Supported-Parts[the PICKitPlus web site] for an up-to-date list of supported devices.
 
-When selecting a part using the "P" option, see <<_pkcmd_lx_usage, PKCMD-LX Usage>>, you can use the full name or short name.
-
-{empty} +
+When selecting a part using the "-P" option (see <<_pkcmd_lx_usage, PKCMD-LX Usage>>), you can use the full name or short name.
 
 NOTE: `-P 16f690` is the same as `-P PIC16F690`
 
 {empty} +
 {empty} +
 
+*System Requirements*
+
+PKCMD-LX has been tested on a number of 32-bit and 64-bit Linux distros. It should work on all flavours, within specified limits:
+
+1. Requires libc v2.13 or above. This is linked to the distribution, and is typically out of your control. If your libc version is too low, often your only recourse is to install a newer distro.
+2. Requires root (or sudo), at least until it is fully installed and configured.
+3. Requires fuse (i.e. fusermount), if you want to run PKCMD-LX without root privileges.
+4. Expects libfuse v2.9.0 or greater, although older versions may work. For example, v2.8.5 prints warning messages but does seem to function.
+5. If you have a limited or evaluation license, you will need internet access to use the program. Full licenses do not have this limitation.
+
+{empty} +
+{empty} +
 
 *Supported Linux Distributions*
 
@@ -48,38 +57,39 @@ Distributions known to have a compatible version of libc include:
 - Slackware 13.37
 - Ubuntu 11.04 (Natty)
 
+Distributions that do not use libc (such as Abyss, Alpine, Sabotage, Vanilla and Void) will not run PKCMD-LX.
 
-Distribution that do not use libc (such as Abyss, Alpine, Sabotage, Vanilla and Void) are not compatible.
-
-{empty} +
-{empty} +
-
-*Operating System Support List (Validated)*
-
-PKCMD-LX has been validated on 32-bit and 64-bit Debian-based Linuxes, but should work on all flavours, within specified limits, as follows:
-
-1. Requires libc v2.13 or above. This is linked to the distribution, and is typicali  out of your control. If your libc version is too low, often your only recourse is to install a newer distro.
-2. Requires root (or sudo), at least until it is fully installed and configured.
-3. Requires fuse (i.e. fusermount), if you want to run PKCMD-LX without root privileges.
-4. Expects libfuse v2.9.0 or greater, although older versions may work. For example, v2.8.5 prints warning messages but does seem to function.
-5. If you have a limited or evalulation license, you will need internet access to use the program.
+A compatibility-test program is available free of charge on our website. Potential users can download and run that, to see if the full product is compatible with their system.
 
 {empty} +
 {empty} +
 
 *Installation*
 
-Installation is very simple.
+Installation is fairly straightforward.
 
-Ensure you download the RAR from the PICKitPlus distribution server.
-Unpack the RAR file.
-Copy the AppImage for you PC architecture with the DAT file to any folder.
-Execute the AppImage for parameters see PKCMD-LX command line parameters, see <<_pkcmd_lx_usage, PKCMD-LX Usage>>
-but, to simple confirm operations, try `-w -p<%yourpart%> -e` this will find PIC and erase the PIC.
+1. Download the .tar.gz using the link provided.
+2. Unpack the .tar.gz file. It contains two AppImages: one 32-bit, the other 64-bit.
+4. Move the appropriate AppImage for your PC architecture, along with the provided DAT file, to whatever location you wish.
+5. You may then delete the .tar.gz file and any extraneous files you do not require.
+6. Ensure that the AppImage has the executable permission (using `chmod +x /path/to/appimage`)
+7. Execute the AppImage with whatever parameter you desire. Use "-h" for help.
+
+See also: <<_pkcmd_lx_usage, PKCMD-LX Usage>>
 
 {empty} +
 
-NOTE: Must be root.&#160;&#160;You can set up non-root access by running the program as root with the `--configure-no-root <your-username>` instruction.&#160;&#160;You will need to reboot afterwards following this command.&#160;&#160;
+NOTE: You must be root, or use sudo.&#160;&#160;You can set up non-root access by running the program (as root) with the `--configure-no-root` instruction. This instruction takes an optional username and/or groupname argument. Examples:
+
+   --configure-no-root
+   
+   --configure-no-root someuser
+   
+   --configure-no-root someuser:somegroup
+   
+   --configure-no-root :somegroup
+
+If in doubt, simply give it your username (to give you access) or the ":users" group (to give all users access).
 
 {empty} +
 {empty} +
@@ -87,19 +97,17 @@ NOTE: Must be root.&#160;&#160;You can set up non-root access by running the pro
 *AppImage*
 
 PKCMD-LX is distributed as an AppImage.&#160;&#160;
-Using an AppImage enables the development team to provide native binaries for Linux users just the same way we do for other operating systems.&#160;&#160;
-An AppImage enables the development team to package the PKCMD-LX application for common Linux based operating system, e.g., Ubuntu, Debian, openSUSE, RHEL, CentOS, Fedora etc.&#160;&#160;
+Using an AppImage enables the development team to provide native binaries for Linux users the same way we do for other operating systems.&#160;&#160;
+An AppImage enables the development team to package the PKCMD-LX application for common Linux operating systems, e.g., Ubuntu, Debian, openSUSE, RHEL, CentOS, Fedora etc.&#160;&#160;
 
 The PICKitPlus AppImage comes with all dependencies that cannot be assumed to be part of each target system in a recent enough version and will run on most Linux distributions without further modifications.&#160;&#160;
 {empty} +
 
-An important advantage is that AppImage is designed from ground to run without super user permissions (you will need root permission to install).&#160;&#160;
 Almost all major distributions are compatible with AppImages, without requiring the user to make modifications to the base system.&#160;&#160;
-AppImages ship with their own runtime, and do not require external resources.&#160;&#160;
-You can simply use the AppImage on a USB disk and use it normally, on any machine.&#160;&#160;
+AppImages are portable. You can place the AppImage on a USB flash drive and run it from there, on any machine, if you wish.&#160;&#160;
 {empty} +
 {empty} +
-To summurise:&#160;&#160;AppImages provide a easy and unified user experience that is simple to install and use.
+To summarise:&#160;&#160;AppImages provide an easy and unified user experience that is simple to install and use.
 
 {empty} +
 {empty} +

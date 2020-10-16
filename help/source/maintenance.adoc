@@ -21,19 +21,22 @@ These components are key for a complete solution:
 {empty} +
 {empty} +
 _Archive file_
+
 PKCMD (Windows) comes as a RAR file containing an installer. To install, first extract the installer and then run it.
 
-PKCMD-LX (Linux) comes as a .tar.gz file. To update PKCMD-LX:
-1. Unpack the .tar.gz file. It contains two AppImages: one 32-bit, the other 64-bit.
-2. Move the appropriate AppImage for your PC architecture, along with the provided DAT file, to replace your existing files. The DAT file must be located alongside the AppImage, in order for PKCMD-LX to find it.
-3. You may then delete the .tar.gz file and any extraneous files you do not require.
-4. Ensure that the AppImage has the executable permission (using `chmod +x /path/to/appimage`)
+PKCMD-LX (Linux) comes as a .tar.gz file. To update PKCMD-LX, replace your current AppImage and DAT files with the new ones from the archive. Then, ensure that the AppImage has the executable permission (using `chmod +x /path/to/appimage`)
 
 
 {empty} +
 {empty} +
+
 _AppImage_
-[Stuart add some words about selecting the correct image)
+
+The PKCMD-LX `.tar.gz` file contains two AppImages - one for 32-bit, the other for 64-bit. You should use the appropriate AppImage for your operating system.
+
+If you are unsure about your system's bittedness, execute `uname -a` from a terminal. If the output contains "x86_64", then you are 64-bit. If, on the other hand, you find something like "i686", then you're running 32-bit.
+
+If all else fails, try running one of the AppImages (after giving it the executable permission with `chmod`). If you get an error about it not being a valid executable, then it's the wrong one.
 
 {empty} +
 {empty} +

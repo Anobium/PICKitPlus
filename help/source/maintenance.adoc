@@ -10,7 +10,7 @@ These insights apply to both PKCMD (Windows) and PKCMD-LX (Linux).
 
 These components are key for a complete solution:
 [start=1]
- . RAR (Windows) or .tar.gz (Linux) file
+ . Archive: `.rar` (Windows) or `.tar.gz` (Linux)
 
  . AppImage (Linux)
 
@@ -20,7 +20,7 @@ These components are key for a complete solution:
 
 {empty} +
 {empty} +
-_RAR/.tar.gz file_
+_Archive file_
 PKCMD (Windows) comes as a RAR file containing an installer. To install, first extract the installer and then run it.
 
 PKCMD-LX (Linux) comes as a .tar.gz file. To update PKCMD-LX:

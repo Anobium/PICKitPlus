@@ -23,7 +23,7 @@ PKCMD-LX is a commandline-only solution.  Refer to the "PICkit 2 User's Guide" o
 Device support is dependent on the device file version installed
 with the PKCMD-LX.  See http://www.PICKitPlus.co.uk/Typesetter/index.php/Supported-Parts[the PICKitPlus web site] for an up-to-date list of supported devices.
 
-When selecting a part using the "-P" option (see <<_pkcmd_lx_usage, PKCMD-LX Usage>>), you can use the full name or short name.
+When selecting a part using the `-P` option (see <<_pkcmd_lx_usage, PKCMD-LX Usage>>), you can use the full name or short name.
 
 NOTE: `-P 16f690` is the same as `-P PIC16F690`
 
@@ -34,10 +34,10 @@ NOTE: `-P 16f690` is the same as `-P PIC16F690`
 
 PKCMD-LX has been tested on a number of 32-bit and 64-bit Linux distros. It should work on all flavours, within specified limits:
 
-1. Requires libc v2.13 or above. This is linked to the distribution, and is typically out of your control. If your libc version is too low, often your only recourse is to install a newer distro.
+1. Requires `libc` v2.13 or above. This is linked to the distribution, and is typically out of your control. If your libc version is too low, often your only recourse is to install a newer distro.
 2. Requires root (or sudo), at least until it is fully installed and configured.
-3. Requires fuse (i.e. fusermount), if you want to run PKCMD-LX without root privileges.
-4. Expects libfuse v2.9.0 or greater, although older versions may work. For example, v2.8.5 prints warning messages but does seem to function.
+3. Requires `fuse` (i.e. the `fusermount` command), if you want to run PKCMD-LX without root privileges.
+4. Expects `libfuse` v2.9.0 or greater, although older versions may work. For example, v2.8.5 prints warning messages but does seem to function.
 5. If you have a limited or evaluation license, you will need internet access to use the program. Full licenses do not have this limitation.
 
 {empty} +
@@ -73,7 +73,7 @@ Installation is fairly straightforward.
 4. Move the appropriate AppImage for your PC architecture, along with the provided DAT file, to whatever location you wish.
 5. You may then delete the .tar.gz file and any extraneous files you do not require.
 6. Ensure that the AppImage has the executable permission (using `chmod +x /path/to/appimage`)
-7. Execute the AppImage with whatever parameters you desire. Use "-h" for help.
+7. Execute the AppImage with whatever parameters you desire. Use `-h` for help.
 
 See also: <<_pkcmd_lx_usage, PKCMD-LX Usage>>
 
@@ -81,15 +81,12 @@ See also: <<_pkcmd_lx_usage, PKCMD-LX Usage>>
 
 NOTE: You must be root, or use sudo.&#160;&#160;You can set up non-root access by running the program (as root) with the `--configure-no-root` instruction. This instruction takes an optional username and/or groupname argument. Examples:
 
-   --configure-no-root
-   
-   --configure-no-root someuser
-   
-   --configure-no-root someuser:somegroup
-   
-   --configure-no-root :somegroup
+   - --configure-no-root
+   - --configure-no-root someuser
+   - --configure-no-root someuser:somegroup
+   - --configure-no-root :somegroup
 
-If in doubt, simply give it your username (to give you access) or the ":users" group (to give all users access).
+If in doubt, simply give it your username (to give you access) or the `:users` group (to give all users access).
 
 {empty} +
 {empty} +

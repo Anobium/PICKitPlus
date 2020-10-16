@@ -245,7 +245,7 @@ All memory regions and eeprom (if present) are reset to their default values as 
 This is a positional argument.  Positional arguments are processed in the order they are given.  If -e is placed AFTER -m, the device will first be programmed and then subsequently erased.
 
 The purpose of positional arguments is to permit multiple operations (erase, read, write) to be performed in a single invocation.
-
+<|
 //EVANFIX
 //-g
 <|-g

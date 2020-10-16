@@ -234,7 +234,9 @@ Some IDEs do not play well with -dK, because they don't allow the user to intera
 `-dK`&#160;&#160;Wait until key press
 {empty} +
 
-<|-e&#160;&#160;--erase
+<|-e
+
+--erase
 <|No parameter required
 <|-e       Erase device
 
@@ -242,70 +244,40 @@ All memory regions and eeprom (if present) are reset to their default values as 
 
 This is a positional argument.  Positional arguments are processed in the order they are given.  If -e is placed AFTER -m, the device will first be programmed and then subsequently erased.
 
-The purpose of positional arguments is to permit multiple operations - erase, read, write etc - to be performed in a single invocation.
-
-<|Usage:
-{empty} +
-{empty} +
-`-e` Requires a filename as a parameter  `-f` to specify a source or device filename.
-{empty} +
-{empty} +
-This parameter is a positional  parameter.   When using `-f` MUST be stated before parameters such as -m, -g or -v parameters.
-{empty} +
-{empty} +
-You must specify a filename when using the `-f`.
-{empty} +
-{empty} +
-`-f` does not support `-mc` or `-gc` therefore you cannot import or export config word(s) as a single action.
-{empty} +
-{empty} +
-Examples:
-{empty} +
-`-f12F675.hex -mpec` &#160;&#160;&#160;&#160;Write memory regions program,  eeprom and config from the source file
-{empty} +
-{empty} +
-`-f12F675_out.hex  -gpec` &#160;&#160;&#160;&#160;Get memory regions program,  eeprom and config and write to the output file.
-{empty} +
-{empty} +
-`-f12F675.hex  -vpc` &#160;&#160;&#160;&#160;Verify memory regions program and config using the specified source file.
-{empty} +
-
-
+The purpose of positional arguments is to permit multiple operations (erase, read, write) to be performed in a single invocation.
 
 //-g
 <|-g
 <|Requires a parameter or parameter(s) string
-<|-g        get (equates to export) memory contents from device.
+<|-g        get (read, export) memory contents from device.
 
 
-Full options are: -gpcei
+Full options are: -gpecs
 
     memory regions are:
 
       p = Program memory
 
-      c = Configuration memory
-
       e = EEPROM
+
+      c = Configuration memory
 
       s = UserIDs
 
 1) At least one memory region MUST be specified. If
 no memory region is specified as a parameter then
-nothing will be exported. With this switch NO default
-memory region(s) are assumed. You must specify a
-memory region , if no memory region is specified an
-error message will be issued and therefore -g will not
-export any memory regions.
+the operation will fail.
 
-2) If a memory region is specified then the memory
-region is exported to the file specified. -gc will export
-the config memory region.
+2) If memory regions are specified then the specified
+regions are exported to the file specified with -f.
+For example, -gc will export the config memory region.
 
 3) The export will be to the terminal (STDOUT) if -f is
-not stated.
+not specified.
 
-Requires -f to specify the output filename.
+4) -f is positional and must be specified BEFORE the
+-g or -m operation to which it refers.
+
 <|Usage:
 {empty} +
 {empty} +
@@ -324,17 +296,17 @@ Requires -f to specify the output filename.
 <|-h
 Show the basic Help.
 
-This switch shows a basic list of the switches and the usage.
+This switch shows a basic list of the supported arguments and their purposes.
 <|Usage:
 
 `-h `
-Shows the list of the command line switches .
+Shows the list of the command line arguments.
 
 <|-i
 <|No parameter
-<|-i&#160;&#160;Display device Id and revision.
+<|-i&#160;&#160;Display device ID and revision.
 
-Shows the device ID and Revision in hexadecimal.
+Shows the Device ID and Revision in hexadecimal.
 <|Usage:
 {empty} +
 {empty} +
@@ -343,7 +315,7 @@ Shows the device ID and Revision in hexadecimal.
 
 <|-j
 <|No parameter
-<|-j&#160;&#160;Show the attached PICKit programmers.
+<|-j&#160;&#160;Detect and summarise the attached PICKit programmers.
 
 Unit IDs of all connected PICKit programmers will be displayed.
 <|Usage:
@@ -353,20 +325,18 @@ Unit IDs of all connected PICKit programmers will be displayed.
 {empty} +
 
 <|-k
+
+--killpower
 <|No parameter
-<|-k&#160;&#160;Remove power.
+<|-k&#160;&#160;Remove power previously left on using -zv.
 
 -k is mutually exclusive to -w
-Also see, -a to apply programmer power.
-
---killpower is also supported for this switch.
-
-To hack a removal of power use '-w -p<part> -gc.
+See also: -a.
 
 <|Usage:
 {empty} +
 {empty} +
-`-k`     Stops the VDD from being provide form PICKit programmer
+`-k`     Instructs the programmer to cease providing power to the target
 {empty} +
 {empty} +
 
@@ -383,46 +353,42 @@ To hack a removal of power use '-w -p<part> -gc.
 <|Requires a parameter or parameter(s) string
 <|-m&#160;&#160;Program device.
 
-Full options are:  -mpce
+Full options are:  -mpecs
 
 &#160;&#160;memory regions are:
 
 &#160;&#160;&#160;&#160;p  = Program memory
 
-&#160;&#160;&#160;&#160;c = Configuration memory                         
-
 &#160;&#160;&#160;&#160;e = EEPROM
+
+&#160;&#160;&#160;&#160;c = Configuration memory                         
 
 &#160;&#160;&#160;&#160;s = UserIDs
 
+The order in which these flags are specified is not important.
 
-1) Memory regions MUST be specified.&#160;&#160;If no memory region is specified then the device is not modified.&#160;&#160;No default memory regions are assumed.&#160;&#160;You must specify a memory region, if no memory region is specified an error message will be issued.
+1) Memory regions MUST be specified. If no memory region is specified then the operation will fail.
 
-2) When programming either 'p' ( Program memory ) or 'c' (Configuration memory)   you MUST use -mcp[e][s].&#160;&#160;Where 'p' and 'c' are mandated.&#160;&#160;You cannot write just the program or just the config.  This constraint ensures the device is erased prior to write operations.
+2) Some chips have constraints on what memory types can be written by themselves. For example, some don't support writing the config without also writing or erasing the program memory. For such chips, invalid programming attempts will fail with an error message.
 
-3) If a memory region is specified then the memory region IS ERASED, then, updated with the source HEX data.  &#160;&#160;, -e is implied for the memory region(s) specified.
+3) If a memory region is specified then the memory region IS FIRST ERASED, then programmed.  &#160;&#160;In other words, -e is implied for the memory region(s) specified.
 
-4) All memory regions specifies are verified.
+4) All specified memory regions are automatically verified after programming. There is currently no way to disable this.
 
-5) To ensure memory regions are not changed during programming operations, when they are NOT specified with the switch, the unspecified memory regions are preserved, restored and verified.&#160;&#160;These operations ensure the device is properly programmed and is a precautionary measure to ensure no corruption has occurred.
-
-
--m will always erase specified memory region.
-
-Requires -f to specify the output filename.
+To specify an output filename, use -f. This is a positional argument, and must appear BEFORE -m. If omitted, the data will be printed to the terminal instead.
 <|Usage:
 {empty} +
 {empty} +
-Example 1.  Program all memory regions.
+Example 1. Program all memory regions:
 {empty} +
 {empty} +
-`-p16lf18855  w -zv -f16lf18855.hex -mcep`
+`-p16lf18855  -w  -zv  -f16lf18855.hex  -mpec`
 {empty} +
 {empty} +
-Example 2. Command to maintain EEPROM.
+Example 2. Write program memory and config, but preserve EEPROM contents:
 {empty} +
 {empty} +
-`-p16lf18855  -w -zv -f16lf18855.hex -mcp`
+`-p16lf18855  -w  -zv  -f16lf18855.hex  -mcp`
 {empty} +
 
 
@@ -430,7 +396,9 @@ Example 2. Command to maintain EEPROM.
 <|Requires a PICKit programmer name string as a parameter
 <|-n&#160;&#160;Program the device with the specified name.
 
-Use the PICkit programmer with the given Unit ID string.&#160;&#160;Useful when multiple PICkit programmers  units are connected.
+Use the PICkit programmer with the given Unit ID string (its so-called "serial").&#160;&#160;Useful when multiple PICkit programmers units are connected.
+
+Not particularly useful when multiple programmers have the same ID. (Yes, this is a thing.)
 
 <|Usage:
 {empty} +
@@ -445,17 +413,23 @@ Use a specific programmer with the name of BUR12345678.
 {empty} +
 
 <|-p
-<|Requires a device name parameter string
+<|Requires a chip model name
 <|-p&#160;&#160;Program the device with the specified name.
 
-The switch specifies the device to be programmed.  The device string needs to match the device being programmed.&#160;&#160;The device string is used to extract key information from the device database.&#160;&#160;An incorrect device string will not work and an error message will be issued.
+This argument is mandatory for all chip-related operations (i.e. read, write, erase).
 
-You can optionally use a PIC prefix.&#160;&#160; So 12F675 and PIC12F675 will also program a 12F675 device.
+The switch specifies the target chip ("part") to be programmed.  The device string needs to match the device being programmed, or the operation will fail.&#160;&#160;The device string is used to extract key information from the device database.&#160;&#160;An incorrect device string will not work and an error message will be issued.
+
+Specifying an incorrect part name may cause damage to your part. For example, specifying a PIC18F6520 when you have connected the low-voltage PIC18LF6520 will (unless -a is specified) apply 5 volts to the part, potentially damaging it.
+
+You may optionally omit the "PIC" prefix from your part name. For example, -p12F675 and -pPIC12F675 are both valid arguments.
+
+The part name is not case-sensitive.
 
 <|Usage:
 {empty} +
 {empty} +
-Example 1.  Program a 16 part.
+Example 1.  Program a PIC16LF8855 chip.
 {empty} +
 {empty} +
 
@@ -463,7 +437,7 @@ Example 1.  Program a 16 part.
 {empty} +
 {empty} +
 
-Example 2. Program a 16 part using the suffix PIC
+Example 2. Program a 12F675.
 {empty} +
 {empty} +
 `-pPIC12F675  -w -zv -f12F675 -mcp`
@@ -497,7 +471,7 @@ Example 2:
 
 
 <|-q
-<|Requires a parameter
+<|
 <|&#160;&#160;Set the output to minimal (quiet)
 <|Usage:
 {empty} +
@@ -533,17 +507,19 @@ Set to the UserId to a hexadecimal value 0x0000000000000001 use the following:
 <|Requires a hexadecimal parameter
 <|-u&#160;&#160;sets the OSCCAL value on devices with OSCCAL support.
 
-Supports hexadecimal values only.  Supports usage of leading 0x and four characters 0xhhhh, or, a four character string hhhh.  Where the hexadecimal value must start with 0x34, the next 6 bits to determine the OSCCAL and the lower two bit must contain zero.   Essentially, the 6 bits adjust the frequency up or down to achieve 4 MHz.
+Supports hexadecimal values only.  Supports usage of leading 0x and four characters 0xhhhh, or, a four character string hhhh.  The hexadecimal value must start with 0x34; the next 6 bits determine the OSCCAL; and the lower two bits must be zero.  Essentially, the 6 bits adjust the frequency up or down to achieve 4 MHz.
 
--u is a positional command.  Therefore, it has no effect until a write operation is performed.  You must put this switch prior to the -m switch.
+-u is a positional command.  Therefore, it has no effect until a write operation is performed.  It must be specified before -m.
 
-Changing the OSCCAL value impacts the operating frequency of the device.  YOU MUST ENSURE THE VALUE COMPLIES WITH THE SPECIFICATION AS STATED IN THE DATASHEET.   Typical values are similar to 0x343C.   Resetting the OSCCAL value is automatic when using the PICKPlus 2 Programmer software.
+Changing the OSCCAL value impacts the operating frequency of the device.  YOU MUST ENSURE THE VALUE COMPLIES WITH THE SPECIFICATION AS STATED IN THE DATASHEET.   Typical values are similar to 0x343C.
+
+NOTE: The PICKit+2 GUI can regenerate the OSCCAL value for you automatically.
 
 <|Usage:
 {empty} +
 
 {empty} +
-Example 1.  Set to hexadecimal value 343c
+Example 1.  Set to hexadecimal value 343C
 {empty} +
 
 {empty} +
@@ -552,7 +528,7 @@ Example 1.  Set to hexadecimal value 343c
 {empty} +
 {empty} +
 
-Example 2.  Set to hexadecimal value 0x343d
+Example 2.  Set to hexadecimal value 0x3438
 {empty} +
 {empty} +
 `-w  -pPIC12f675   -f12f675.hex -u3438 -mpec  -a5.0 -zv`
@@ -587,19 +563,20 @@ Example 2.  Set to hexadecimal value 0x343d
 
 //-w
 <|-w
+
+--applypower
 <|No parameter
 <|-w       Power device from programmer, if safe to do so.
 
-Power will be applied operations at the voltage set by at the specific programming voltage.
+Power will be applied during programming operations. If a specific voltage has not been specified with -a, the default voltage for the selected part will be used.
 
-To remove power formally see -k.
--w enables the use of -a.
--w is mutually exclusive to -k.
---applypower is also supported for this switch.
+Before applying power, the software will check if power is already present. If power is found to be present, the software will not attempt to supply more power.
+
+See also: -a, -k
 
 {empty} +
 
-NOTE: These command line switches operate differently from the Microchip command line utility.
+NOTE: These command line switches operate differently from the original Microchip command line utility.
 
 {empty} +
 {empty} +
@@ -616,50 +593,46 @@ Example 1.  Enable power to support programming using the default operating volt
 `-w -pPIC12f675   -f12f675.hex -u343c -mpec`
 {empty} +
 {empty} +
-Example 2.  Enable power to support programming using the default operating voltage and maintain this voltage after exiting the application.
+Example 2.  Enable power to support programming using the default operating voltage and continue to apply power after exiting the application.
 {empty} +
 {empty} +
 `-w -pPIC12f675   -f12f675.hex -u343c -mpec  -zv`
 {empty} +
 
 <|-z
-<|Requires a parameter or parameters
-<|-z&#160;&#160;Set voltage and/or MCLR upon exit.
 
+--on-exit
+<|Requires one or more flags
+<|-z&#160;&#160;Keep power and/or MCLR asserted upon exit.
 
--z must be used with at least one of the options
+-z must be used with at least one of the flags V or M. The order of these flags is not important, and they are not case-sensitive.
 
--zv or -zm.   Specify states on exit where v=power and/or m=mclr
-See -a for operating voltages.
+Specifies state on exit where v=power and m=mclr.
 
-`--on exit` is also supported for this switch.
+See also: -a
 
 <|Usage:
 {empty} +
 {empty} +
-`-zv`          &#160;&#160;&#160;&#160; Set VDD upon exit
+`-zv`          &#160;&#160;&#160;&#160; Keep power applied after exit
 {empty} +
-`-zm` &#160;&#160;&#160;&#160;Set MCLR upon exit
+`-zm` &#160;&#160;&#160;&#160;Keep MCLR asserted after exit
 {empty} +
-`-zvm` &#160;&#160;&#160;&#160;Set VDD & MCLR upon exit
+`-zvm` &#160;&#160;&#160;&#160;Keep both power and MCLR after exit
 {empty} +
 
 
-<|--icsp-delay
-<|Requires a parameter
-<|-icsp-delay&#160;&#160;Sets the ICSP frequency.
-
-
-This switch enables a  slow communications ICSP frequency to be used.  This can be useful for older programmers or where large distances are used in the programming environment.
-
-This is a byte value where each byte gives the clock period in multiples of 1us.
-
-An example is the 18F(L)xxK80 where a value of 60 is recommended.
-<|Usage:
-{empty} +
-{empty} +
-`-icsp-delay 50`
-{empty} +
+//<|--icsp-delay
+//<|Requires a parameter
+//<|-icsp-delay&#160;&#160;Sets the ICSP frequency.
+//This switch enables a  slow communications ICSP frequency to be used.  This can be useful for older programmers or where large distances are used in the programming environment.
+//This is a byte value where each byte gives the clock period in multiples of 1us.
+//An example is the 18F(L)xxK80 where a value of 60 is recommended.
+//<|Usage:
+//{empty} +
+//{empty} +
+//`-icsp-delay 50`
+//{empty} +
 |===
 
 ifdef::backend-pdf[<<<]
@@ -734,24 +707,19 @@ ifdef::backend-pdf[<<<]
 //<|Blank Check Failed
 {empty} +
 {empty} +
-*Configuration*
-
-There is an ini file that can be adapted.&#160;&#160;The file is called PICKitCommandline.ini&#160;&#160;The structure is as follows:
-
-----
-
-  [GENERAL]
-  LOGFILE=PICKitCommandline.log
-  ERRORFILE=PICKitCommandline.err
-----
-
-The location and the filename for each entry in the can be changed to meet specific needs.
-
-{empty} +
-{empty} +
+//*Configuration*
+//There is an ini file that can be modified.&#160;&#160;The file is called PICKitCommandline.ini&#160;&#160;The structure is as follows:
+//----
+//  [GENERAL]
+//  LOGFILE=PICKitCommandline.log
+//  ERRORFILE=PICKitCommandline.err
+//----
+//The location and the filename for each entry in the can be changed to meet specific needs.
+//{empty} +
+//{empty} +
 *Dump file*
 
-In the event of a crash, a dumpfile is created at `~/.pkcmd.dump`, and a message displayed to indicate the dumpfile has been created.&#160;&#160;
+In the event of a crash, a dumpfile will be created at `~/.pkcmd.dump`, and a message displayed to indicate the dumpfile has been created.&#160;&#160;
 This can be used to diagnose issues and you may be requested to send the dumpfile to the development team to assist in the root cause analysis of the issue.&#160;&#160;
 
 
@@ -762,12 +730,12 @@ This can be used to diagnose issues and you may be requested to send the dumpfil
 
 When using this executable a parameter is either a standalone flag or a key/value pair.
 
-And, for `-m` and `-g` there is no default. You must specify memory region.
+For `-m` and `-g` there is no default. You must specify memory region.
 
-And, using `-w`  with `-zv` will default to the standard operating voltage for the device.
+`-w` defaults to the standard operating voltage for the device, unless `-a` is also used to specify a voltage.
 
-And, when a PICKit 3 device programmmer is first plugged in to USB the MCLR  is asserted (pin is held low.)   A PICKit 2 device programmmer does not  do this.
+When a PICKit 3 device programmmer is first plugged in to USB the MCLR is asserted (pin is held low).  A PICKit 2 device programmmer does not  do this.
 
-And... if you need to set or reset the BANDGAP on your device. Please use the PICKitPlus Windows Application for the PICKit 2 device programmmer or PICKit 3 device programmmer programmers.  This can reset the BANDGAP with a click. Simply read the device, select the 'BandGap:' in the upper part of the application interface  - this will change the BandGap value.  Select the desired BandGap by reselecting 'BandGap' and then Write or Erase the device.
+If you need to set or reset the BANDGAP on your device. Please use the PICKitPlus Windows Application for the PICKit 2 or PICKit 3.  This can reset the BANDGAP with a click. Simply read the device, then select the 'BandGap:' in the upper part of the application interface - this will change the BandGap value.  Select the desired BandGap by reselecting 'BandGap' and then Write or Erase the device.
 
-And... quotes can be used around the argument; and also that it can optionally be separated from the switch by a space. This is a universal rule.
+And... quotes can be used around the argument; and it can optionally be separated from the switch by a space. This is a universal rule.

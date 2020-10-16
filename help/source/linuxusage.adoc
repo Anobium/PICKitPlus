@@ -3,7 +3,7 @@
 *Introduction*
 
 
-These are usage instructions.&#160;&#160;We assume a PICkit programmer and you are using the programmmer as the power source.&#160;&#160;
+These are usage instructions.&#160;&#160;We assume a PICkit programmer and you are using the programmer as the power source.&#160;&#160;
 {empty} +
 {empty} +
 In the examples below substitute %chipname% with the name of your target chip, and substitute %Filename% with the path and filename of your hex file.&#160;&#160;

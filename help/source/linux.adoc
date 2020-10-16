@@ -73,7 +73,7 @@ Installation is fairly straightforward.
 4. Move the appropriate AppImage for your PC architecture, along with the provided DAT file, to whatever location you wish.
 5. You may then delete the .tar.gz file and any extraneous files you do not require.
 6. Ensure that the AppImage has the executable permission (using `chmod +x /path/to/appimage`)
-7. Execute the AppImage with whatever parameter you desire. Use "-h" for help.
+7. Execute the AppImage with whatever parameters you desire. Use "-h" for help.
 
 See also: <<_pkcmd_lx_usage, PKCMD-LX Usage>>
 

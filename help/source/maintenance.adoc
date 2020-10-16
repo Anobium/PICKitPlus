@@ -2,7 +2,9 @@
 
 *Introduction:*
 
-These insights are not distribution specific.
+These insights apply to both PKCMD (Windows) and PKCMD-LX (Linux).
+
+{empty} +
 
 *Solution Architecture:*
 These components are key for a complete solution:

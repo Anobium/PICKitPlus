@@ -409,6 +409,7 @@ Example:
 {empty} +
 `-p16lf18855 -nBUR12345678 -w -zv -f16lf18855.hex -mcep`
 {empty} +
+{empty} +
 Use a specific programmer with the name of BUR12345678.
 {empty} +
 {empty} +
@@ -475,6 +476,7 @@ Example 2:
 <|
 <|&#160;&#160;Set the output to minimal (quiet)
 <|Usage:
+{empty} +
 {empty} +
 `-q`&#160;&#160;The application will issue minimal messages.
 {empty} +
@@ -606,7 +608,7 @@ Example 2.  Enable power to support programming using the default operating volt
 <|Requires one or more flags
 <|-z&#160;&#160;Keep power and/or MCLR asserted upon exit.
 
--z must be used with at least one of the flags V or M. The order of these flags is not important, and they are not case-sensitive.
+-z Must be used with at least one of the flags V or M. The order of these flags is not important, and they are not case-sensitive.
 
 Specifies state on exit where v=power and m=mclr.
 

@@ -49,6 +49,21 @@ To program config and program memories whilst retaining eeprom contents, using e
 <|Explanation
 <|Usage
 
+<|-2
+<|No parameter
+<|-2&#160;&#160;&#160;&#160;Selects a PICKit 2 programmer only.&#160;&#160;
+
+The application can be forced to use a PICKit 2 programmer.&#160;&#160;
+This is useful when you have more than one programmer attached.&#160;&#160;
+
+|Usage:
+{empty} +
+{empty} +
+`-2`
+{empty} +
+{empty} +
+Will select a PICKit 2 only for programming operations.
+{empty} +
 <|-3
 <|No parameter
 <|-3&#160;&#160;&#160;&#160;Selects a PICKit 3 programmer only.
@@ -65,21 +80,6 @@ This is useful when you have more than one programmer attached.
 Will select a PICKit 3 only for programming operations.
 {empty} +
 
-<|-2
-<|No parameter
-<|-2&#160;&#160;&#160;&#160;Selects a PICKit 2 programmer only.&#160;&#160;
-
-The application can be forced to use a PICKit 2 programmer.&#160;&#160;
-This is useful when you have more than one programmer attached.&#160;&#160;
-
-|Usage:
-{empty} +
-{empty} +
-`-2`
-{empty} +
-{empty} +
-Will select a PICKit 2 only for programming operations.
-{empty} +
 <|--devicelist
 
 <|

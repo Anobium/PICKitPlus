@@ -1,1 +1,2 @@
-makehelp PICKitPlus  all
+makehelppkplus PICKitPlus all
+

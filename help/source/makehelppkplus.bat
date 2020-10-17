@@ -76,6 +76,8 @@ del *.hh*
 del *.css
 rmdir .\images /s /q
 
+
+REM Make WIKI section
 cd ..\md
 del *.md
 del *.mod > nul
@@ -96,14 +98,13 @@ del *.md
 ren *.mod *.md
 ren D:\PICKitPlus.wiki.git\trunk\index.md  "home.md"
 
-
-
 del *.htm*
 del *.hh*
 del *.css
 del *.chm
 
 rmdir .\images /s /q
+REM Make WIKI section
 
 
 cd %GCBase%\source

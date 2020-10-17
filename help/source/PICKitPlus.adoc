@@ -39,6 +39,4 @@ include::linuxusage.adoc[]
 
 :leveloffset: -1
 
-This is the maintenance section of the Help file. Please refer the sub-sections for details using the contents/folder view.
-
 include::maintenance.adoc[]

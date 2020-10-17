@@ -70,10 +70,10 @@ Installation is fairly straightforward.
 
 1. Download the .tar.gz using the link provided.
 2. Unpack the .tar.gz file. It contains two AppImages: one 32-bit, the other 64-bit.
-4. Move the appropriate AppImage for your PC architecture, along with the provided DAT file, to whatever location you wish.
-5. You may then delete the .tar.gz file and any extraneous files you do not require.
-6. Ensure that the AppImage has the executable permission (using `chmod +x /path/to/appimage`)
-7. Execute the AppImage with whatever parameters you desire. Use `-h` for help.
+3. Move the appropriate AppImage for your PC architecture, along with the provided DAT file, to whatever location you wish.
+4. You may then delete the .tar.gz file and any extraneous files you do not require.
+5. Ensure that the AppImage has the executable permission (using `chmod +x /path/to/appimage`)
+6. Execute the AppImage with whatever parameters you desire. Use `-h` for help.
 
 See also: <<_pkcmd_lx_usage, PKCMD-LX Usage>>
 

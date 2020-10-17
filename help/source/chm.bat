@@ -1,1 +1,1 @@
-makehelp PICKitPlus chm
+makehelppkplus PICKitPlus chm

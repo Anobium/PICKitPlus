@@ -53,7 +53,7 @@ _ini Files_
 
 PKCMD (Windows) has an `.ini` file, which you may modify if desired.
 
-[TODO: specifics of ini file]
+//[TODO: specifics of ini file]
 
 PKCMD-LX (Linux) does not currently use a configuration file of any sort.
 

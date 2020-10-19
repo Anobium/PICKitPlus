@@ -118,25 +118,22 @@ You may wish to pipe or redirect the output to a file.
 {empty} +
 {empty} +
 
-//<|--firmware
-//<|No parameter
-//<|--firmware&#160;&#160;&#160;&#160;Flash firmware to a PICKIT programmer.
-//
-//This an exclusive command.  Other command line parameters will be ignored.
-//
-//PICKit 2 device programmmerV023200.hex and  PICKit 3 device programmmerOSV020005.hex are assumed to be in the same folder as the program.
-//
-//When using this switch you may get an 'Error 6: Failed to put PICKit 2 device programmmer in bootloader mode' error on the first attempt.  This a know condition. Simply try the switch.
-//
-//<|Usage:
-//{empty} +
-//{empty} +
-//For PICKIT2 Programmer  `--firmware`
-//{empty} +
-//{empty} +
-//For PICKIT3 Programmer  `--firmware`
-//{empty} +
-//{empty} +
+<|--firmware
+<|No parameter
+<|--firmware&#160;&#160;&#160;&#160;Flash firmware for a PICKIT 3 programmer.
+
+This an exclusive command.  Other command line parameters will be ignored.
+
+PICKit 3 device programmmer hex files are assumed to be in the same folder as the program.
+
+When using this switch you may get an error on the first attempt.  This a know condition. Simply try the switch and/or unplug and retry.
+
+<|Usage:
+{empty} +
+{empty} +
+For PICKIT3 Programmer  `--firmware`
+{empty} +
+{empty} +
 
 
 //-a

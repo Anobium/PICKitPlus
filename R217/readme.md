@@ -1,5 +1,7 @@
                 Rev217
 
+		Corrected 47Q10 Progmem from 0x1000 to 0x10000	
+
                 Required 4.61.0.57 GUIs to work correctly
 
                 Changes for PIC24FXXKMXXX/KLXXX per DS30000625E table 4-1

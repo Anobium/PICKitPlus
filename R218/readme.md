@@ -1,4 +1,6 @@
-                Rev218
+                Rev218.15
+
+    Revised PIC18(L)F18xxK40 max voltage to 3v6
 
     Revised PIC16(L)F184XX masks
 

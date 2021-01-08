@@ -42,3 +42,6 @@ Initial release of the web, xml, HTML, HTML5 and PDF Help for PICKitPlus
 {doctime}
 
 |===
+
+
+Added --firmware command

@@ -121,6 +121,19 @@ Will show the revision of the devices database and a complete list of the suppor
 </p></td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;"><p>--family</p></td>
+<td style="text-align: left;"><p>family number</p></td>
+<td style="text-align: left;"><p>--family        Use automatic selection for the attached microcontroller within the family of microcontrollers.</p>
+<p>This is mutually exclusive to <code class="literal">-p</code></p></td>
+<td style="text-align: left;"><p>Usage:<br />
+<br />
+<code class="literal">-- family 22</code></p>
+<p>The software will search through the family 22 microcontrollers.</p>
+<p><br />
+<br />
+</p></td>
+</tr>
+<tr class="even">
 <td style="text-align: left;"><p>--firmware</p></td>
 <td style="text-align: left;"><p>No parameter</p></td>
 <td style="text-align: left;"><p>--firmware    Flash firmware for a PICKIT 3 programmer.</p>
@@ -133,7 +146,7 @@ For PICKIT3 Programmer <code class="literal">--firmware</code><br />
 <br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><p>-a</p></td>
 <td style="text-align: left;"><p>Requires a parameter</p></td>
 <td style="text-align: left;"><p>-a    Adjust the standard operating voltage.</p>
@@ -161,7 +174,7 @@ Example 3. Set to the default operating voltage. -a is not explicitly stated as 
 <br />
 Some clone programmers lack the ability to change the voltage. When using such a tool, -a will have no effect.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><p>-b</p></td>
 <td style="text-align: left;"><p>Requires a filename as parameter</p></td>
 <td style="text-align: left;"><p>-b    The filename of the PKPlusDeviceFile.dat file.</p>
@@ -173,7 +186,7 @@ Some clone programmers lack the ability to change the voltage. When using such a
 If the .dat file in NOT in the same folder the complete path and filename must be specified.<br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><p>-c</p></td>
 <td style="text-align: left;"><p>No parameter</p></td>
 <td style="text-align: left;"><p>-c  Blank Check.</p>
@@ -185,7 +198,7 @@ If the .dat file in NOT in the same folder the complete path and filename must b
 <br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><p>-d</p></td>
 <td style="text-align: left;"><p>-d Requires a parameter</p></td>
 <td style="text-align: left;"><p>-d  Delay on exit of the application.</p>
@@ -199,7 +212,7 @@ If the .dat file in NOT in the same folder the complete path and filename must b
 <code class="literal">-dK</code>  Wait until key press<br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><p>-e</p>
 <p>--erase</p></td>
 <td style="text-align: left;"><p>No parameter required</p></td>
@@ -209,7 +222,7 @@ If the .dat file in NOT in the same folder the complete path and filename must b
 <p>The purpose of positional arguments is to permit multiple operations (erase, read, write) to be performed in a single invocation.</p></td>
 <td style="text-align: left;"> </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><p>-g</p></td>
 <td style="text-align: left;"><p>Requires a parameter or parameter(s) string</p></td>
 <td style="text-align: left;"><p>-g get (read, export) memory contents from device.</p>
@@ -233,7 +246,7 @@ If the .dat file in NOT in the same folder the complete path and filename must b
 <br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><p>-h</p></td>
 <td style="text-align: left;"><p>No parameter</p></td>
 <td style="text-align: left;"><p>-h Show the basic Help.</p>
@@ -241,7 +254,7 @@ If the .dat file in NOT in the same folder the complete path and filename must b
 <td style="text-align: left;"><p>Usage:</p>
 <p>`-h ` Shows the list of the command line arguments.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><p>-i</p></td>
 <td style="text-align: left;"><p>No parameter</p></td>
 <td style="text-align: left;"><p>-i  Display device ID and revision.</p>
@@ -250,7 +263,7 @@ If the .dat file in NOT in the same folder the complete path and filename must b
 <br />
 <code class="literal">-i</code>   Show the device ID and revision</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><p>-j</p></td>
 <td style="text-align: left;"><p>No parameter</p></td>
 <td style="text-align: left;"><p>-j  Detect and summarise the attached PICKit programmers.</p>
@@ -260,7 +273,7 @@ If the .dat file in NOT in the same folder the complete path and filename must b
 <code class="literal">-j</code>  Show the PICKit programmers.<br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><p>-k</p>
 <p>--killpower</p></td>
 <td style="text-align: left;"><p>No parameter</p></td>
@@ -272,7 +285,7 @@ If the .dat file in NOT in the same folder the complete path and filename must b
 <br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><p>-m</p></td>
 <td style="text-align: left;"><p>Requires a parameter or parameter(s) string</p></td>
 <td style="text-align: left;"><p>-m  Program device.</p>
@@ -299,7 +312,7 @@ Example 2. Write program memory and config, but preserve EEPROM contents:<br />
 <code class="literal">-p16lf18855  -w  -zv  -f16lf18855.hex  -mcp</code><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><p>-n</p></td>
 <td style="text-align: left;"><p>Requires a PICKit programmer name string as a parameter</p></td>
 <td style="text-align: left;"><p>-n  Program the device with the specified name.</p>
@@ -315,7 +328,7 @@ Use a specific programmer with the name of BUR12345678.<br />
 <br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><p>-p</p></td>
 <td style="text-align: left;"><p>Requires a chip model name</p></td>
 <td style="text-align: left;"><p>-p  Program the device with the specified name.</p>
@@ -337,7 +350,7 @@ Example 1. Program a PIC16LF8855 chip.<br />
 <code class="literal">-pPIC12F675  -w -zv -f12F675 -mcp</code><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><p>-r</p></td>
 <td style="text-align: left;"><p>Requires a parameter</p></td>
 <td style="text-align: left;"><p>Implemented as -rnnnn where nnnn is the size of the flash memory block to be protected, and where nnn can be any value within the constaints of NVRAM erase row size. Suggest multiples of 0x20.</p>
@@ -355,7 +368,7 @@ Example 1. Program a PIC16LF8855 chip.<br />
 <code class="literal">-r0xE0</code>  This will preserve the last 0xE0 (224) words of flash memory on a microcontroller with 256 words of SAF memory.<br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><p>-q</p></td>
 <td style="text-align: left;"> </td>
 <td style="text-align: left;"><p>  Set the output to minimal (quiet)</p></td>
@@ -364,7 +377,7 @@ Example 1. Program a PIC16LF8855 chip.<br />
 <code class="literal">-q</code>  The application will issue minimal messages.<br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><p>-s</p></td>
 <td style="text-align: left;"><p>Requires a hexadecimal parameter</p></td>
 <td style="text-align: left;"><p>-s  sets the UserID value for microcontrollers that support UserID bytes/words.</p>
@@ -380,7 +393,7 @@ Set to the UserId to a hexadecimal value 0x0000000000000001 use the following:<b
 <br />
 <code class="literal">-w -p16f1938 -f16f1938.hex -s0x0000000000000001  -mpecs -a5.0 -zv</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><p>-u</p></td>
 <td style="text-align: left;"><p>Requires a hexadecimal parameter</p></td>
 <td style="text-align: left;"><p>-u  sets the OSCCAL value on devices with OSCCAL support.</p>
@@ -403,7 +416,7 @@ Example 1. Set to hexadecimal value 343C<br />
 <code class="literal">-w  -pPIC12f675   -f12f675.hex -u3438 -mpec  -a5.0 -zv</code><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><p>-w</p>
 <p>--applypower</p></td>
 <td style="text-align: left;"><p>No parameter</p></td>
@@ -431,7 +444,7 @@ Example 2. Enable power to support programming using the default operating volta
 <code class="literal">-w -pPIC12f675   -f12f675.hex -u343c -mpec  -zv</code><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><p>-z</p>
 <p>--on-exit</p></td>
 <td style="text-align: left;"><p>Requires one or more flags</p></td>

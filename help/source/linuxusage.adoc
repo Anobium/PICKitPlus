@@ -118,6 +118,23 @@ You may wish to pipe or redirect the output to a file.
 {empty} +
 {empty} +
 
+<|--family
+<|family number
+<|--family&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Use automatic selection for the attached microcontroller within the family of microcontrollers.
+
+This is mutually exclusive to `-p`
+
+
+<|Usage:
+{empty} +
+{empty} +
+`-- family 22`
+
+The software will search through the family 22 microcontrollers.
+
+{empty} +
+{empty} +
+
 <|--firmware
 <|No parameter
 <|--firmware&#160;&#160;&#160;&#160;Flash firmware for a PICKIT 3 programmer.

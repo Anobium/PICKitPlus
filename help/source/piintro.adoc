@@ -1,0 +1,12 @@
+== PICKitPlus for PI
+
+The PICKitPlus for PI s called PKCMD-PI.&#160;&#160;
+The application is a commandline program.
+
+PKCMD-PI can be used for reading and writing Microchip's PIC range of microcontrollers, using the Pickit 2 or Pickit 3 device programmers.
+
+PKCMD-PI provides the best experience for the PI user, developers and the professional developer community.
+
+PKCMD-PI uses a PI AppImage for ease of installation and use.
+
+We provide one year software support/software maintenance from the date of purchase, this support/software maintenance can be extended each year.

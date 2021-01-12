@@ -39,4 +39,15 @@ include::linuxusage.adoc[]
 
 :leveloffset: -1
 
+
+
+include::piintro.adoc[]
+
+:leveloffset: +1
+include::pi.adoc[]
+
+include::piusage.adoc[]
+
+:leveloffset: -1
+
 include::maintenance.adoc[]

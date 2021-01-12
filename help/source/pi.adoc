@@ -1,0 +1,90 @@
+== PKCMD-PI Introduction
+
+The PICKitPlus for PI commandline program is called PKCMD-PI.
+
+The program can be used for reading and writing Microchip's PIC range of microcontrollers, using the Pickit 2 or Pickit 3 device programmers.
+
+*Program Definition*
+
+PKCMD-PI is a 32-bit command-line interface to the PICkit 2 or PICkit 3 device programmer.
+
+This interface is designed for programming devices in an environment where batch/script files or custom-controlled software is desired.
+
+The PKCMD-PI executable requires the "PKPlusDeviceFile.dat" file for execution. This file should be kept in the same directory as the executable AppImage.
+{empty} +
+
+NOTE: To call the PKCMD-PI executable from other directories and still allow it to find the device file the device file may be explicitly specified on the command line using option -b (-B).
+
+PKCMD-PI is a commandline-only solution.  Refer to the "PICkit 2 User's Guide" or "PICkit 3 User's Guide" for more information about the specifics of the PICkit 2/3 device Programmer.
+
+
+*Device Support List*
+
+Device support is dependent on the device file version installed
+with the PKCMD-PI.  See http://www.PICKitPlus.co.uk/Typesetter/index.php/Supported-Parts[the PICKitPlus web site] for an up-to-date list of supported devices.
+
+When selecting a part using the `-P` option (see <<_pkcmd_pi_usage, PKCMD-PI Usage>>), you can use the full name or short name.
+
+NOTE: `-P 16f690` is the same as `-P PIC16F690`
+
+{empty} +
+{empty} +
+
+*System Requirements*
+
+PKCMD-PI has been tested on a number of 32-bit PI distros. It should work on all flavours, within specified limits:
+
+1. Requires `libc` v2.13 or above. This is linked to the distribution, and is typically out of your control. If your libc version is too low, often your only recourse is to install a newer distro.
+2. Requires root (or sudo), at least until it is fully installed and configured.
+3. Requires `fuse` (i.e. the `fusermount` command), if you want to run PKCMD-PI without root privileges.
+4. Expects `libfuse` v2.9.0 or greater, although older versions may work. For example, v2.8.5 prints warning messages but does seem to function.
+5. If you have a limited or evaluation license, you will need internet access to use the program. Full licenses do not have this limitation.
+
+{empty} +
+{empty} +
+
+
+*Installation*
+
+Installation is fairly straightforward.
+
+1. Download the .tar.gz using the link provided.
+2. Unpack the .tar.gz file. It contains two AppImages: one 32-bit, the other 64-bit.
+3. Move the appropriate AppImage for your PC architecture, along with the provided DAT file, to whatever location you wish.
+4. You may then delete the .tar.gz file and any extraneous files you do not require.
+5. Ensure that the AppImage has the executable permission (using `chmod +x /path/to/appimage`)
+6. Execute the AppImage with whatever parameters you desire. Use `-h` for help.
+
+See also: <<_pkcmd_pi_usage, PKCMD-PI Usage>>
+
+{empty} +
+
+NOTE: You must be root, or use sudo.&#160;&#160;You can set up non-root access by running the program (as root) with the `--configure-no-root` instruction. This instruction takes an optional username and/or groupname argument. Examples:
+
+   - --configure-no-root
+   - --configure-no-root someuser
+   - --configure-no-root someuser:somegroup
+   - --configure-no-root :somegroup
+
+If in doubt, simply give it your username (to give you access) or the `:users` group (to give all users access).
+
+{empty} +
+{empty} +
+
+*AppImage*
+
+PKCMD-PI is distributed as an AppImage.&#160;&#160;
+Using an AppImage enables the development team to provide native binaries for PI users the same way we do for other operating systems.&#160;&#160;
+An AppImage enables the development team to package the PKCMD-PI application for the PI operating systems.&#160;&#160;
+
+The PICKitPlus AppImage comes with all dependencies that cannot be assumed to be part of each target system in a recent enough version and will run on most PI distributions without further modifications.&#160;&#160;
+{empty} +
+
+Almost all major distributions are compatible with AppImages, without requiring the user to make modifications to the base system.&#160;&#160;
+AppImages are portable. You can place the AppImage on a USB flash drive and run it from there, on any machine, if you wish.&#160;&#160;
+{empty} +
+{empty} +
+To summarise:&#160;&#160;AppImages provide an easy and unified user experience that is simple to install and use.
+
+{empty} +
+{empty} +

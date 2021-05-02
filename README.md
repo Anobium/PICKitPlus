@@ -1008,8 +1008,6 @@ dsPIC30F1010            0x00000404  Others/dsPIC30 SMPS             8           
 11LC020                 0xFFFFFFFF  EEPROMS/11LC                    15                 *
 11LC010                 0xFFFFFFFF  EEPROMS/11LC                    15                 *
 +FL127S                 0xFFFFFFFF  EEPROMS/25LC                    11                 *
-</code>
-
 
 
 * Supported by PKCMD, PKAutoWatch, PKGangProgrammer and PKCMD-LX.

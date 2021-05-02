@@ -4,6 +4,7 @@ Versions after 2.63.218 are now available with the software. See www.pickitplus.
 
 ----
 
+''''
 Using data file "PKPlusDeviceFile.dat" which is a version 2.63.222 file.
 
 PICkitCommandline v5.12.35065.7789
@@ -1007,7 +1008,7 @@ dsPIC30F1010            0x00000404  Others/dsPIC30 SMPS             8           
 11LC020                 0xFFFFFFFF  EEPROMS/11LC                    15                 *
 11LC010                 0xFFFFFFFF  EEPROMS/11LC                    15                 *
 +FL127S                 0xFFFFFFFF  EEPROMS/25LC                    11                 *
-
+''''
 
 
 

@@ -2,8 +2,6 @@ Last public available .dat is version  2.63.218.  See above.
 
 Versions after 2.63.218 are now available with the software. See www.pickitplus.co.uk
 
-----
-
 Using data file "PKPlusDeviceFile.dat" which is a version 2.63.222 file.
 
 PICkitCommandline v5.12.35065.7789

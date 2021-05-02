@@ -1,29 +1,35 @@
+Last public available .dat is version  2.63.218.  See above.
+
+Versions after 2.63.218 are now available with the software. See www.pickitplus.co.uk
+
+----
+
 Using data file "PKPlusDeviceFile.dat" which is a version 2.63.222 file.
 
 PICkitCommandline v5.12.35065.7789
 
-PIC32MX460F512L         0x00078000  Others/PIC32                    16                  
-PIC32MX460F256L         0x00074000  Others/PIC32                    16                  
-PIC32MX440F512H         0x00056000  Others/PIC32                    16                  
-PIC32MX440F256H         0x00052000  Others/PIC32                    16                  
-PIC32MX440F128L         0x0006D000  Others/PIC32                    16                  
-PIC32MX440F128H         0x0004D000  Others/PIC32                    16                  
-PIC32MX420F032H         0x00042000  Others/PIC32                    16                  
-PIC32MX360F512L         0x00038000  Others/PIC32                    16                  
-PIC32MX360F256L         0x00034000  Others/PIC32                    16                  
-PIC32MX340F512H         0x00016000  Others/PIC32                    16                  
-PIC32MX340F256H         0x00012000  Others/PIC32                    16                  
-PIC32MX340F128L         0x0002D000  Others/PIC32                    16                  
-PIC32MX340F128H         0x0000D000  Others/PIC32                    16                  
-PIC32MX320F128L         0x0002A000  Others/PIC32                    16                  
-PIC32MX320F128H         0x0000A000  Others/PIC32                    16                  
-PIC32MX320F064H         0x00006000  Others/PIC32                    16                  
-PIC32MX320F032H         0x00002000  Others/PIC32                    16                  
-PIC32MX250F128B         0x04D00053  Others/PIC32                    16                  
-PIC32MX230F064B         0x04D01053  Others/PIC32                    16                  
-PIC32MX220F032B         0x04A00053  Others/PIC32                    16                  
-PIC32MX210F016B         0x04A01053  Others/PIC32                    16                  
-PIC32MX150F128B         0x04D06053  Others/PIC32                    16                  
+PIC32MX460F512L         0x00078000  Others/PIC32                    16
+PIC32MX460F256L         0x00074000  Others/PIC32                    16
+PIC32MX440F512H         0x00056000  Others/PIC32                    16
+PIC32MX440F256H         0x00052000  Others/PIC32                    16
+PIC32MX440F128L         0x0006D000  Others/PIC32                    16
+PIC32MX440F128H         0x0004D000  Others/PIC32                    16
+PIC32MX420F032H         0x00042000  Others/PIC32                    16
+PIC32MX360F512L         0x00038000  Others/PIC32                    16
+PIC32MX360F256L         0x00034000  Others/PIC32                    16
+PIC32MX340F512H         0x00016000  Others/PIC32                    16
+PIC32MX340F256H         0x00012000  Others/PIC32                    16
+PIC32MX340F128L         0x0002D000  Others/PIC32                    16
+PIC32MX340F128H         0x0000D000  Others/PIC32                    16
+PIC32MX320F128L         0x0002A000  Others/PIC32                    16
+PIC32MX320F128H         0x0000A000  Others/PIC32                    16
+PIC32MX320F064H         0x00006000  Others/PIC32                    16
+PIC32MX320F032H         0x00002000  Others/PIC32                    16
+PIC32MX250F128B         0x04D00053  Others/PIC32                    16
+PIC32MX230F064B         0x04D01053  Others/PIC32                    16
+PIC32MX220F032B         0x04A00053  Others/PIC32                    16
+PIC32MX210F016B         0x04A01053  Others/PIC32                    16
+PIC32MX150F128B         0x04D06053  Others/PIC32                    16
 PIC24HJ64GP510          0x0000004B  Others/PIC24                    1                  *  Supports Programmer to Go - PICKit2 Only with PICKitPlus GUI application
 PIC24HJ64GP506          0x00000049  Others/PIC24                    1                  *  Supports Programmer to Go - PICKit2 Only with PICKitPlus GUI application
 PIC24HJ64GP504          0x00000677  Others/PIC24                    1                  *  Supports Programmer to Go - PICKit2 Only with PICKitPlus GUI application
@@ -852,14 +858,14 @@ M25P32                  0xFFFFFFFF  EEPROMS/25LC                    11          
 M25P20                  0xFFFFFFFF  EEPROMS/25LC                    11                 *
 M25P16                  0xFFFFFFFF  EEPROMS/25LC                    11                 *
 M25P10                  0xFFFFFFFF  EEPROMS/25LC                    11                 *
-HCS362                  0xFFFFFFFF  Others/KEELOQ?? HCS             9                   
-HCS361                  0xFFFFFF36  Others/KEELOQ?? HCS             9                   
-HCS360                  0xFFFFFF36  Others/KEELOQ?? HCS             9                   
-HCS320                  0xFFFFFFFF  Others/KEELOQ?? HCS             9                   
-HCS301                  0xFFFFFFFF  Others/KEELOQ?? HCS             9                   
-HCS300                  0xFFFFFFFF  Others/KEELOQ?? HCS             9                   
-HCS201                  0xFFFFFFFF  Others/KEELOQ?? HCS             9                   
-HCS200                  0xFFFFFFFF  Others/KEELOQ?? HCS             9                   
+HCS362                  0xFFFFFFFF  Others/KEELOQ?? HCS             9
+HCS361                  0xFFFFFF36  Others/KEELOQ?? HCS             9
+HCS360                  0xFFFFFF36  Others/KEELOQ?? HCS             9
+HCS320                  0xFFFFFFFF  Others/KEELOQ?? HCS             9
+HCS301                  0xFFFFFFFF  Others/KEELOQ?? HCS             9
+HCS300                  0xFFFFFFFF  Others/KEELOQ?? HCS             9
+HCS201                  0xFFFFFFFF  Others/KEELOQ?? HCS             9
+HCS200                  0xFFFFFFFF  Others/KEELOQ?? HCS             9
 dsPIC33FJ64MC804        0x0000061B  Others/dsPIC33                  5                  *  Supports Programmer to Go - PICKit2 Only with PICKitPlus GUI application
 dsPIC33FJ64MC802        0x00000619  Others/dsPIC33                  5                  *  Supports Programmer to Go - PICKit2 Only with PICKitPlus GUI application
 dsPIC33FJ64MC710        0x00000097  Others/dsPIC33                  5                  *  Supports Programmer to Go - PICKit2 Only with PICKitPlus GUI application
@@ -1005,6 +1011,6 @@ dsPIC30F1010            0x00000404  Others/dsPIC30 SMPS             8           
 
 
 
-* Supported by PKCMD, PKAutoWatch, PKGangProgrammer and PKCMD-LX. 
+* Supported by PKCMD, PKAutoWatch, PKGangProgrammer and PKCMD-LX.
 
-All devices are supported by PICKit2Plus and PICKit3Plus applications. 
+All devices are supported by PICKit2Plus and PICKit3Plus applications.

@@ -318,7 +318,7 @@ This switch shows a basic list of the supported arguments and their purposes.
 Shows the list of the command line arguments.
 
 <|-i
-<|Required -p<partname>
+<|Requires&#160;&#160;-p<partname>&#160;&#160;
 <|-i&#160;&#160;Display device ID and revision.
 
 Shows the Device ID and Revision in hexadecimal.

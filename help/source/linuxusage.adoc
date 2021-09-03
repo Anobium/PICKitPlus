@@ -318,7 +318,7 @@ This switch shows a basic list of the supported arguments and their purposes.
 Shows the list of the command line arguments.
 
 <|-i
-<|No parameter
+<|Required -p<partname>
 <|-i&#160;&#160;Display device ID and revision.
 
 Shows the Device ID and Revision in hexadecimal.
@@ -326,8 +326,11 @@ Shows the Device ID and Revision in hexadecimal.
 {empty} +
 {empty} +
 `-i` &#160;&#160;Show the device ID and revision
-
-
+{empty} +
+{empty} +
+-i -p16F1825
+{empty} +
+{empty} +
 <|-j
 <|No parameter
 <|-j&#160;&#160;Detect and summarise the attached PICKit programmers.

@@ -1,10 +1,10 @@
 == Application Log files
 
-The PICKitPlus for PKCMD-LX, PKCMD-PI or PKCMD-PHAT create logs file that can bu used to aid issue resolution by the PICKitPlus development team.&#160;&#160;
+The PICKitPlus products `PKCMD-LX`, `PKCMD-PI` and `PKCMD-PHAT` create log files that can be used to aid issue resolution by the PICKitPlus development team.&#160;&#160;
 
 If you are asked to provide the log files please use the following method:
 
-1. Make the logfile and/or dumpfile visible, you must remove the leading dot from its name.
+1. To make the logfile and/or dumpfile visible, you must remove the leading dot from its name.
 
     Open a terminal and type:
 
@@ -16,4 +16,4 @@ If you are asked to provide the log files please use the following method:
     cp ~/.pkcmd-lx.log .pkcmd-lx.log
     cp ~/.pkcmd-lx.dump .pkcmd-lx.dump
 
-Then, when requested by the PICKitPlus development team send these files.
+Then, when requested by the PICKitPlus development team, send us both of these files.

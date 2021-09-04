@@ -256,12 +256,16 @@ If the .dat file in NOT in the same folder the complete path and filename must b
 </tr>
 <tr class="even">
 <td style="text-align: left;"><p>-i</p></td>
-<td style="text-align: left;"><p>No parameter</p></td>
+<td style="text-align: left;"><p>Requires  -p&lt;partname&gt;  </p></td>
 <td style="text-align: left;"><p>-i  Display device ID and revision.</p>
 <p>Shows the Device ID and Revision in hexadecimal.</p></td>
 <td style="text-align: left;"><p>Usage:<br />
 <br />
-<code class="literal">-i</code>   Show the device ID and revision</p></td>
+<code class="literal">-i</code>   Show the device ID and revision<br />
+<br />
+-i -p16F1825<br />
+<br />
+</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><p>-j</p></td>

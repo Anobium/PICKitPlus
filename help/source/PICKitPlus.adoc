@@ -51,3 +51,6 @@ include::piusage.adoc[]
 :leveloffset: -1
 
 include::maintenance.adoc[]
+
+include::logfiles.adoc[]
+

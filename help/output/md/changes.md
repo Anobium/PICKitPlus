@@ -62,7 +62,7 @@ Initial release of the web, xml, HTML, HTML5 and PDF Help for PICKitPlus
 </tr>
 <tr class="odd">
 <td style="text-align: center;"><p>2021-12-02<br />
-10:53:40 GMT Standard Time</p></td>
+13:22:26 GMT Standard Time</p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><p>Master ToC information</p></td>

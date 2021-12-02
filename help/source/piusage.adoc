@@ -36,6 +36,8 @@ To program config and program memories whilst retaining eeprom contents, using e
 {empty} +
 {empty} +
 
+WARNING: When you specify switches using the long switch format as-in `--program  pec` a space is mandatory, but in the short version  as-in `-mpec` or `-m pec` this operates with or without space.
+
 *Commands*
 {empty} +
 {empty} +
@@ -745,7 +747,7 @@ This can be used to diagnose issues and you may be requested to send the dumpfil
 {empty} +
 *General Guidelines*
 
-When using this executable a parameter is either a standalone flag or a key/value pair.
+When using the  executable a parameter is either a standalone flag or a key/value pair.
 
 For `-m` and `-g` there is no default. You must specify memory region.
 
@@ -761,11 +763,12 @@ And... quotes can be used around the argument; and it can optionally be separate
 {empty} +
 *Integration*
 
-When integrating this executable with other applications the following details are a working example.
+When integrating this executable with other applications the following details will provide help.&#160;&#160;
+This is a working example from Guillermo Molina.
 
-PKCMD-PI Problem when running inside pyqt5 / QtProcess application.
-
-Passing a string list of parameters to the QProcess with the switch and corresponding parameter in one string with space between them, the correct way is to pass them as two independent strings without spaces.
+In the example show below:&#160;&#160;PKCMD-PI is running inside a pyqt5 / QtProcess application.&#160;&#160;
+To pass a string list of parameters to the QProcess and corresponding values in one string with space between them does not work,
+the correct way is to pass the parameter and the value as two independent strings without any spaces.
 
 An QtProcess example follows:
 

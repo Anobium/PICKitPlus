@@ -756,3 +756,42 @@ When a PICKit 3 device programmmer is first plugged in to USB the MCLR is assert
 If you need to set or reset the BANDGAP on your device. Please use the PICKitPlus Windows Application for the PICKit 2 or PICKit 3.  This can reset the BANDGAP with a click. Simply read the device, then select the 'BandGap:' in the upper part of the application interface - this will change the BandGap value.  Select the desired BandGap by reselecting 'BandGap' and then Write or Erase the device.
 
 And... quotes can be used around the argument; and it can optionally be separated from the switch by a space. This is a universal rule.
+
+{empty} +
+{empty} +
+*Integration*
+
+When integrating this executable with other applications the following details are a working example.
+
+PKCMD-PI Problem when running inside pyqt5 / QtProcess application.
+
+Passing a string list of parameters to the QProcess with the switch and corresponding parameter in one string with space between them, the correct way is to pass them as two independent strings without spaces.
+
+An QtProcess example follows:
+
+----
+    def start_process(self):
+                self.p = QProcess()
+                self.p.readyReadStandardOutput.connect(self.handle_stdout)
+                self.p.readyReadStandardError.connect(self.handle_stderr)
+                self.p.stateChanged.connect(self.handle_state)
+                self.p.finished.connect(self.process_finished)
+                self.p.start(
+                    "pkcmd",
+                    [
+                        "--filename",
+                        "dummy.hex",
+                        "--pk3",
+                        "--part",
+                        "PIC18F26K42",
+                        "--applypower",
+                        "--voltage",
+                        "5.0",
+                        "--program",
+                        "pec",
+                    ],
+                )
+
+----
+{empty} +
+{empty} +

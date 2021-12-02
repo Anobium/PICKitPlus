@@ -777,7 +777,7 @@ An QtProcess example follows:
                 self.p.stateChanged.connect(self.handle_state)
                 self.p.finished.connect(self.process_finished)
                 self.p.start(
-                    "pkcmd",
+                    "pkcmd",    #assumes the executable has been renamed to pkcmd
                     [
                         "--filename",
                         "dummy.hex",

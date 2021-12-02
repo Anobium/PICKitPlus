@@ -770,6 +770,7 @@ Passing a string list of parameters to the QProcess with the switch and correspo
 An QtProcess example follows:
 
 ----
+    # Thank you to Guillermo Molina for this example
     def start_process(self):
                 self.p = QProcess()
                 self.p.readyReadStandardOutput.connect(self.handle_stdout)

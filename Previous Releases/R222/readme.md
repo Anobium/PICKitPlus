@@ -1,6 +1,8 @@
-Rev222.4
+Rev222.5
 
       Update database to make the 16LF1554 and 16LF1559.
+
+      Final change was to change the parts to chip family 0 (from 18).
 
       In comes down to this - these two chips have a non-standard DEVICEID and REVISION word not words. For some reason they have decided to have a word not words. So, DEVICEID has the suffix of the REVISION.
 
@@ -9,5 +11,4 @@ Rev222.4
       So, I have looked. There are ONLY three revisions. 00,01,02 so, I am going to add parts called
 
       2F00, 2F01 and retain 2F02 - this means we do not have to change our software but the revision will always be zero. This is a workaround but there is NO justification to change our software to resolve this.
-
 

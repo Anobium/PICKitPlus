@@ -1,0 +1,3 @@
+Rev226/3
+
+    Added PIC24FXXKA1XX/FVXXKA3XX Family

@@ -5,3 +5,7 @@ Rev230/3
     Reverted 326 back to reading 5 configs.
 
     So, chips with 5 configs uses 326 & 328; chips with 6 configs uses 360 & 361 (which are currenly the K40's)
+
+Test results.
+
+ LX version 5.06. Programming works for the dsPIC30 family -  tested on the uC dspic30F4011 and dspic30f4013 sucessfully.

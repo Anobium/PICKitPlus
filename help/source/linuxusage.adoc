@@ -641,6 +641,16 @@ See also: -a
 `-zvm` &#160;&#160;&#160;&#160;Keep both power and MCLR after exit
 {empty} +
 
+<|--nolog
+<|No flag required
+<|Prevent log file creation/updating.
+
+
+<|Usage:
+{empty} +
+{empty} +
+`--nolog`          &#160;&#160;&#160;&#160; To prevent logging events being written by application.
+{empty} +
 
 //<|--icsp-delay
 //<|Requires a parameter

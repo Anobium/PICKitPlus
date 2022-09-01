@@ -463,6 +463,15 @@ Example 2. Enable power to support programming using the default operating volta
 <code class="literal">-zvm</code>     Keep both power and MCLR after exit<br />
 </p></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><p>--nolog</p></td>
+<td style="text-align: left;"><p>No flag required</p></td>
+<td style="text-align: left;"><p>Prevent log file creation/updating.</p></td>
+<td style="text-align: left;"><p>Usage:<br />
+<br />
+<code class="literal">--nolog</code>      To prevent logging events being written by application.<br />
+</p></td>
+</tr>
 </tbody>
 </table>
 

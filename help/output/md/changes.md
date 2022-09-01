@@ -61,15 +61,15 @@ Initial release of the web, xml, HTML, HTML5 and PDF Help for PICKitPlus
 <td style="text-align: center;"><p>ASCIIDOCs rendered</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><p>2021-12-02<br />
-13:22:26 GMT Standard Time</p></td>
+<td style="text-align: center;"><p>2022-08-05<br />
+13:45:26 GMT Summer Time</p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><p>Master ToC information</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"><p>2021-09-04<br />
-07:53:57 GMT Summer Time</p></td>
+08:53:57 GMT Summer Time</p></td>
 </tr>
 </tbody>
 </table>

@@ -49,8 +49,9 @@ PKCMD-PI has been tested on a number of 32-bit PI distros. It should work on all
 Installation is fairly straightforward.
 
 1. Download the .tar.gz using the link provided.
-2. Unpack the .tar.gz file. It contains two AppImages: one 32-bit, the other 64-bit.
-3. Move the appropriate AppImage for your PC architecture, along with the provided DAT file, to whatever location you wish.
+2. Unpack the .tar.gz file. It contains either a 32-bit or 64-bit AppImage, depending on the version purchased.
+3. Move the AppImage, along with the provided DAT file (if present), to whatever location you wish.
+   (If no DAT file is supplied, then it is not required.)
 4. You may then delete the .tar.gz file and any extraneous files you do not require.
 5. Ensure that the AppImage has the executable permission (using `chmod +x /path/to/appimage`)
 6. Execute the AppImage with whatever parameters you desire. Use `-h` for help.

@@ -2,7 +2,8 @@ Rev237/3
 
     Added 18FxxQ71. Test and validated with real silicon on 26Q71
     This is a new database format - 3.63.237.3
-    This database is no longer compatible with previous releases of the PKGUI application.  Minimum application release is 6.61.0.75
+    This database is no longer compatible with previous releases ANY of the PKGUI PICKitPlus(s), or any Microchip PKGUI application(s).  
+    Minimum PICKitPlus GUI application release is 7.61.0.75
 
     Device Device ID
         PIC18F24Q71 7660h

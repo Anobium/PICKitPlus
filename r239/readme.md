@@ -1,4 +1,4 @@
-Rev239/4
+Rev239/5
 
     Added 18FxxQ20. Test and validated with real silicon on 06Q20
 
@@ -12,4 +12,6 @@ Rev239/4
 
     Correct CP and CPD write operations
 
-    Do not support SAF memory protection or write ONCE operations
+    Does not support SAF memory protection or write ONCE operations
+
+    /5 Corrected IDs
